@@ -1,0 +1,988 @@
+order_id,order_date,dispatch_date,delivery_date,seller_id,product_category,price,quantity,warehouse_zone,customer_rating,review_text,sentiment_score,return_flag,complaint_code,delivery_method,customer_region,delivery_delay,suspicious_review
+O00000,2025-05-28,2025-05-30,2025-06-06,s033,fashion,193.52,1.0,kano,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,north central,7,1
+O00001,2025-06-24,2025-06-26,2025-07-03,s018,groceries,86.45,3.0,lagos,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,volta,7,1
+O00006,2025-05-15,2025-05-17,2025-05-21,s034,health,491.78,1.0,accra,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,greater accra,4,1
+O00007,2025-05-18,2025-05-19,2025-05-22,s015,groceries,93.56,3.0,kumasi,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,greater accra,3,1
+O00008,2025-06-11,2025-06-11,2025-06-20,s042,toys,286.01,2.0,kumasi,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,ashanti,9,1
+O00009,2025-05-09,2025-05-12,2025-05-19,s023,home & living,225.67,3.0,lagos,1.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,volta,7,1
+O00010,2025-04-24,2025-04-27,2025-04-28,s023,health,136.8,4.0,kumasi,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,greater accra,1,1
+O00011,2025-05-31,2025-06-04,2025-06-05,s011,health,111.89,4.0,accra,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,south west,1,1
+O00012,2025-05-02,2025-05-05,2025-05-12,s005,fashion,470.35,2.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,south east,7,1
+O00013,2025-05-16,2025-05-20,2025-05-21,s046,electronics,265.21,2.0,lagos,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,south east,1,1
+O00014,2025-06-20,2025-06-23,2025-07-01,s049,home & living,297.51,1.0,kumasi,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,volta,8,1
+O00015,2025-06-12,2025-06-12,2025-06-19,s045,toys,90.98,1.0,kano,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,south east,7,1
+O00016,2025-04-16,2025-04-18,2025-04-20,s025,electronics,153.81,3.0,kumasi,4.0,No review,0.0,0,no complaint,standard,ashanti,2,1
+O00017,2025-04-18,2025-04-20,2025-04-24,s044,electronics,367.21,1.0,accra,5.0,No review,0.0,0,no complaint,express,north central,4,1
+O00018,2025-06-19,2025-06-19,2025-06-26,s013,groceries,329.03,4.0,lagos,3.0,No review,0.0,0,no complaint,pickup,south west,7,1
+O00019,2025-04-17,2025-04-21,2025-04-23,s030,groceries,56.75,3.0,lagos,4.0,No review,0.0,0,no complaint,standard,greater accra,2,1
+O00020,2025-06-15,2025-06-15,2025-06-17,s035,groceries,144.61,3.0,kumasi,2.0,No review,0.0,0,no complaint,express,ashanti,2,1
+O00021,2025-04-08,2025-04-10,2025-04-18,s050,toys,382.78,2.0,lagos,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,north central,8,1
+O00022,2025-05-13,2025-05-17,2025-05-19,s026,home & living,64.34,4.0,lagos,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,volta,2,1
+O00023,2025-06-23,2025-06-26,2025-06-30,s028,health,164.03,4.0,lagos,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,south west,4,1
+O00024,2025-05-02,2025-05-06,2025-05-09,s043,toys,211.09,3.0,accra,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,south west,3,1
+O00025,2025-06-23,2025-06-26,2025-06-27,s004,home & living,303.44,3.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south east,1,1
+O00026,2025-05-23,2025-05-26,2025-05-29,s026,electronics,154.86,1.0,lagos,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,greater accra,3,1
+O00027,2025-06-08,2025-06-11,2025-06-19,s003,home & living,274.28,2.0,accra,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,volta,8,1
+O00028,2025-05-25,2025-05-27,2025-06-04,s023,home & living,63.93,1.0,kumasi,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,south west,8,1
+O00029,2025-05-04,2025-05-06,2025-05-14,s045,home & living,431.76,3.0,lagos,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,south east,8,1
+O00030,2025-06-03,2025-06-06,2025-06-13,s047,health,349.29,2.0,lagos,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,south west,7,1
+O00031,2025-04-23,2025-04-23,2025-04-26,s049,health,168.37,4.0,accra,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,north central,3,1
+O00032,2025-05-06,2025-05-09,2025-05-15,s023,electronics,486.17,4.0,lagos,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,south east,6,1
+O00033,2025-05-13,2025-05-13,2025-05-13,s022,home & living,157.43,1.0,kumasi,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,0,1
+O00034,2025-05-30,2025-06-03,2025-06-03,s031,fashion,211.41,3.0,lagos,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,south east,0,1
+O00035,2025-05-19,2025-05-22,2025-05-31,s017,health,343.55,1.0,kumasi,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,south west,9,1
+O00036,2025-06-19,2025-06-21,2025-06-28,s036,fashion,128.61,4.0,kano,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,greater accra,7,1
+O00037,2025-05-08,2025-05-12,2025-05-15,s003,groceries,366.83,4.0,kumasi,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,ashanti,3,1
+O00038,2025-05-22,2025-05-22,2025-05-30,s019,electronics,205.42,3.0,kumasi,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,ashanti,8,1
+O00039,2025-04-13,2025-04-15,2025-04-18,s014,electronics,101.39,1.0,kumasi,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,volta,3,1
+O00040,2025-06-01,2025-06-03,2025-06-05,s004,home & living,117.92,2.0,kano,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,greater accra,2,1
+O00041,2025-06-02,2025-06-02,2025-06-09,s021,groceries,57.13,1.0,kano,3.0,No review,0.0,0,no complaint,pickup,ashanti,7,1
+O00042,2025-06-05,2025-06-07,2025-06-15,s008,electronics,469.0,1.0,lagos,2.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,north central,8,1
+O00043,2025-06-16,2025-06-19,2025-06-28,s037,electronics,439.9,3.0,kumasi,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,north central,9,1
+O00044,2025-06-23,2025-06-24,2025-06-24,s033,toys,263.15,1.0,accra,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,north central,0,1
+O00045,2025-05-05,2025-05-05,2025-05-13,s022,health,451.2,3.0,accra,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south west,8,1
+O00046,2025-04-20,2025-04-23,2025-04-30,s047,electronics,365.72,3.0,kumasi,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,volta,7,1
+O00047,2025-04-21,2025-04-23,2025-04-23,s039,home & living,445.01,4.0,accra,2.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,ashanti,0,1
+O00048,2025-04-13,2025-04-13,2025-04-15,s041,health,307.15,3.0,lagos,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,north central,2,1
+O00049,2025-06-04,2025-06-05,2025-06-06,s016,health,149.12,2.0,accra,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,north central,1,1
+O00050,2025-05-27,2025-05-30,2025-05-30,s047,fashion,329.46,1.0,accra,1.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,volta,0,1
+O00051,2025-05-19,2025-05-21,2025-05-21,s027,health,97.62,4.0,lagos,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,north central,0,1
+O00052,2025-05-29,2025-05-31,2025-06-05,s049,toys,275.84,3.0,lagos,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,north central,5,1
+O00053,2025-05-03,2025-05-07,2025-05-09,s048,home & living,129.55,2.0,lagos,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,volta,2,1
+O00058,2025-04-16,2025-04-16,2025-04-19,s036,toys,290.42,4.0,lagos,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,3,1
+O00059,2025-06-23,2025-06-23,2025-06-25,s028,home & living,198.7,3.0,kumasi,2.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,south west,2,1
+O00060,2025-06-16,2025-06-18,2025-06-25,s001,fashion,468.72,2.0,Unspecified,1.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,ashanti,7,1
+O00061,2025-04-16,2025-04-17,2025-04-26,s023,groceries,338.86,3.0,Unspecified,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,greater accra,9,1
+O00062,2025-05-30,2025-05-30,2025-06-04,s038,groceries,372.98,1.0,Unspecified,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,volta,5,1
+O00063,2025-06-21,2025-06-22,2025-06-24,s005,toys,153.86,3.0,accra,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,south east,2,1
+O00064,2025-05-20,2025-05-21,2025-05-27,s045,groceries,309.64,4.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,ashanti,6,1
+O00065,2025-05-02,2025-05-05,2025-05-07,s007,electronics,401.16,1.0,lagos,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,ashanti,2,1
+O00066,2025-06-20,2025-06-22,2025-06-30,s031,home & living,194.04,2.0,lagos,2.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south west,8,1
+O00067,2025-04-16,2025-04-16,2025-04-19,s008,fashion,421.08,2.0,kano,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,volta,3,1
+O00068,2025-05-04,2025-05-04,2025-05-11,s049,fashion,273.17,1.0,kumasi,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,greater accra,7,1
+O00069,2025-06-10,2025-06-13,2025-06-18,s025,electronics,115.75,1.0,lagos,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,volta,5,1
+O00070,2025-05-04,2025-05-07,2025-05-08,s038,toys,274.91,3.0,kumasi,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,greater accra,1,1
+O00071,2025-06-07,2025-06-09,2025-06-18,s040,electronics,168.25,1.0,kano,1.0,Terrible experience. Product was broken.,-0.7,1,wrong color,express,greater accra,9,1
+O00072,2025-04-27,2025-04-27,2025-05-01,s012,home & living,481.7,3.0,accra,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,ashanti,4,1
+O00073,2025-04-20,2025-04-20,2025-04-27,s035,health,226.75,4.0,kumasi,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,volta,7,1
+O00074,2025-04-15,2025-04-19,2025-04-24,s046,health,322.75,1.0,accra,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south west,5,1
+O00075,2025-04-10,2025-04-12,2025-04-16,s002,groceries,33.38,2.0,accra,2.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,greater accra,4,1
+O00076,2025-05-08,2025-05-08,2025-05-11,s004,home & living,54.98,3.0,lagos,2.0,Very disappointed. Not what was shown online.,-0.975,1,broken item,pickup,south east,3,1
+O00077,2025-05-26,2025-05-29,2025-05-29,s024,toys,384.05,1.0,accra,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,north central,0,1
+O00078,2025-04-19,2025-04-20,2025-04-25,s043,health,328.39,2.0,accra,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,south east,5,1
+O00079,2025-06-06,2025-06-07,2025-06-16,s036,home & living,32.2,3.0,kano,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,north central,9,1
+O00080,2025-05-19,2025-05-23,2025-05-26,s030,electronics,255.51,4.0,kumasi,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,south east,3,1
+O00081,2025-06-24,2025-06-24,2025-06-27,s028,groceries,472.51,2.0,accra,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,volta,3,1
+O00082,2025-06-04,2025-06-04,2025-06-04,s042,electronics,200.2,4.0,kano,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,north central,0,1
+O00086,2025-04-28,2025-04-28,2025-05-04,s004,health,176.91,3.0,lagos,2.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,greater accra,6,1
+O00087,2025-04-30,2025-05-03,2025-05-11,s006,health,318.18,1.0,lagos,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,north central,8,1
+O00088,2025-05-20,2025-05-24,2025-06-01,s024,electronics,148.2,2.0,lagos,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,volta,8,1
+O00089,2025-05-12,2025-05-15,2025-05-16,s048,toys,292.2,3.0,lagos,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,north central,1,1
+O00090,2025-04-11,2025-04-15,2025-04-15,s008,toys,294.47,3.0,kano,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,south east,0,1
+O00091,2025-06-12,2025-06-12,2025-06-12,s002,fashion,372.56,3.0,kumasi,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,greater accra,0,1
+O00092,2025-05-01,2025-05-05,2025-05-07,s013,toys,253.31,1.0,kano,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,2,1
+O00093,2025-06-17,2025-06-19,2025-06-27,s019,toys,15.31,1.0,kumasi,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south east,8,1
+O00094,2025-04-11,2025-04-14,2025-04-16,s013,groceries,475.53,4.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,north central,2,1
+O00095,2025-04-19,2025-04-21,2025-04-29,s015,groceries,50.81,1.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,greater accra,8,1
+O00096,2025-05-28,2025-05-28,2025-06-03,s030,health,114.24,1.0,kumasi,1.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,volta,6,1
+O00097,2025-06-16,2025-06-17,2025-06-21,s041,fashion,38.2,3.0,kumasi,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,greater accra,4,1
+O00098,2025-05-29,2025-05-30,2025-06-07,s046,groceries,277.5,3.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,south east,8,1
+O00099,2025-06-07,2025-06-11,2025-06-18,s007,groceries,312.93,1.0,kumasi,1.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,north central,7,1
+O00100,2025-06-03,2025-06-07,2025-06-11,s003,home & living,356.06,1.0,lagos,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,greater accra,4,1
+O00101,2025-05-01,2025-05-01,2025-05-06,s015,toys,294.84,1.0,kano,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,ashanti,5,1
+O00102,2025-04-27,2025-05-01,2025-05-04,s033,home & living,474.15,1.0,kano,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,greater accra,3,1
+O00103,2025-06-08,2025-06-12,2025-06-17,s015,toys,357.01,3.0,lagos,4.0,No review,-0.75,0,no complaint,pickup,ashanti,5,1
+O00104,2025-05-12,2025-05-14,2025-05-15,s008,electronics,131.87,3.0,lagos,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,volta,1,1
+O00105,2025-05-23,2025-05-27,2025-06-04,s034,toys,37.59,4.0,kumasi,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,volta,8,1
+O00106,2025-06-21,2025-06-21,2025-06-21,s012,groceries,343.71,4.0,kumasi,1.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south east,0,1
+O00107,2025-04-19,2025-04-22,2025-04-26,s014,health,223.8,2.0,accra,1.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,south east,4,1
+O00108,2025-04-14,2025-04-16,2025-04-18,s013,health,460.37,4.0,accra,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,volta,2,1
+O00109,2025-04-28,2025-04-28,2025-04-28,s045,health,266.32,1.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south east,0,1
+O00110,2025-06-08,2025-06-08,2025-06-17,s042,home & living,296.31,4.0,kano,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,north central,9,1
+O00111,2025-04-09,2025-04-12,2025-04-16,s011,electronics,446.23,4.0,kano,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,4,1
+O00112,2025-05-02,2025-05-03,2025-05-04,s046,toy,102.18,2.0,Unspecified,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,south east,1,1
+O00113,2025-05-15,2025-05-17,2025-05-22,s001,living & home,186.57,4.0,Unspecified,1.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,south east,5,1
+O00114,2025-05-17,2025-05-20,2025-05-22,s050,fashon,211.49,1.0,Unspecified,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,south west,2,1
+O00115,2025-06-13,2025-06-17,2025-06-25,s019,Unknown,475.4,4.0,kano,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,volta,8,1
+O00116,2025-04-25,2025-04-27,2025-05-01,s033,Unknown,467.04,2.0,accra,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,greater accra,4,1
+O00117,2025-04-25,2025-04-25,2025-04-29,s018,Unknown,407.17,4.0,accra,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,volta,4,1
+O00118,2025-05-03,2025-05-05,2025-05-05,s026,home & living,202.56,3.0,accra,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,ashanti,0,1
+O00119,2025-05-03,2025-05-03,2025-05-07,s039,toys,239.66,3.0,accra,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,greater accra,4,1
+O00120,2025-06-07,2025-06-11,2025-06-16,s041,fashion,408.32,3.0,accra,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,south east,5,1
+O00121,2025-04-12,2025-04-16,2025-04-25,s030,health,296.72,1.0,kumasi,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,south west,9,1
+O00122,2025-05-22,2025-05-22,2025-05-22,s009,toys,131.2,2.0,accra,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,north central,0,1
+O00123,2025-06-13,2025-06-13,2025-06-13,s023,home & living,307.03,2.0,kano,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,south east,0,1
+O00124,2025-06-20,2025-06-21,2025-06-30,s027,fashion,32.98,3.0,accra,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,north central,9,1
+O00125,2025-06-14,2025-06-15,2025-06-15,s037,health,388.44,3.0,kumasi,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,north central,0,1
+O00126,2025-04-07,2025-04-09,2025-04-17,s025,electronics,284.86,2.0,lagos,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,greater accra,8,1
+O00127,2025-04-16,2025-04-20,2025-04-24,s033,home & living,245.22,3.0,kumasi,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,north central,4,1
+O00128,2025-04-28,2025-05-01,2025-05-02,s028,electronics,404.47,3.0,accra,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,volta,1,1
+O00129,2025-05-12,2025-05-14,2025-05-16,s021,fashion,299.06,2.0,kano,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south east,2,1
+O00130,2025-04-11,2025-04-11,2025-04-18,s025,groceries,180.65,2.0,kumasi,5.0,Very disappointed. Not what was shown online.,-0.975,0,none,express,south east,7,1
+O00131,2025-06-04,2025-06-06,2025-06-06,s020,groceries,156.0,2.0,accra,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,south west,0,1
+O00132,2025-04-20,2025-04-20,2025-04-29,s017,home & living,82.07,4.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,ashanti,9,1
+O00133,2025-04-28,2025-04-29,2025-05-04,s039,electronics,42.46,1.0,lagos,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,south west,5,1
+O00136,2025-04-12,2025-04-12,2025-04-14,s020,groceries,98.23,4.0,lagos,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,ashanti,2,1
+O00137,2025-05-24,2025-05-25,2025-06-03,s028,toys,262.47,4.0,kumasi,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,volta,9,1
+O00138,2025-05-10,2025-05-13,2025-05-22,s034,home & living,412.68,2.0,accra,2.0,"It's okay, not too bad but not amazing either.",-0.166666667,1,wrong item,express,north central,9,1
+O00139,2025-06-22,2025-06-25,2025-07-04,s035,toys,69.11,1.0,kumasi,5.0,No review,0.420833333,0,no complaint,express,north central,9,1
+O00140,2025-05-17,2025-05-21,2025-05-29,s016,health,73.09,2.0,lagos,1.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,north central,8,1
+O00141,2025-06-25,2025-06-27,2025-06-27,s009,health,347.01,4.0,kano,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,ashanti,0,1
+O00142,2025-06-05,2025-06-07,2025-06-10,s032,fashion,405.04,1.0,lagos,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,volta,3,1
+O00143,2025-05-09,2025-05-10,2025-05-16,s039,electronics,191.53,2.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,volta,6,1
+O00144,2025-06-05,2025-06-07,2025-06-14,s045,home & living,363.05,2.0,accra,2.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,north central,7,1
+O00145,2025-05-18,2025-05-21,2025-05-22,s036,home & living,423.78,3.0,kumasi,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,greater accra,1,1
+O00146,2025-04-18,2025-04-18,2025-04-24,s005,electronics,270.98,3.0,kumasi,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south west,6,1
+O00147,2025-05-10,2025-05-10,2025-05-16,s042,electronics,19.83,1.0,kumasi,1.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,greater accra,6,1
+O00148,2025-05-20,2025-05-23,2025-05-31,s038,toys,124.28,1.0,accra,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,volta,8,1
+O00149,2025-04-27,2025-04-28,2025-05-01,s031,groceries,396.69,1.0,kumasi,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,north central,3,1
+O00150,2025-04-07,2025-04-07,2025-04-09,s048,groceries,297.55,4.0,accra,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,south west,2,1
+O00151,2025-06-04,2025-06-05,2025-06-06,s037,fashion,175.35,4.0,lagos,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,south west,1,1
+O00152,2025-05-08,2025-05-12,2025-05-20,s016,electronics,254.14,2.0,kano,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,volta,8,1
+O00153,2025-06-05,2025-06-08,2025-06-15,s043,fashion,59.87,2.0,kumasi,5.0,No review,0.5,0,no complaint,pickup,north central,7,1
+O00154,2025-05-25,2025-05-29,2025-06-01,s005,health,49.31,3.0,lagos,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,greater accra,3,1
+O00155,2025-04-20,2025-04-23,2025-04-26,s003,toy,449.34,4.0,kumasi,1.0,No review,-0.975,0,no complaint,standard,ashanti,3,1
+O00156,2025-04-27,2025-04-29,2025-05-07,s045,living & home,250.47,2.0,lagos,4.0,"Met my expectations, nothing more.",0.5,0,none,standard,ashanti,8,1
+O00157,2025-04-22,2025-04-24,2025-04-28,s008,fashon,272.17,2.0,accra,2.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south east,4,1
+O00158,2025-06-20,2025-06-23,2025-06-23,s001,toys,218.46,1.0,kumasi,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,south west,0,1
+O00159,2025-05-13,2025-05-17,2025-05-20,s041,toys,356.54,2.0,kano,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south east,3,1
+O00160,2025-05-19,2025-05-20,2025-05-27,s046,electronics,301.0,2.0,lagos,2.0,Arrived late and the item looks used.,-0.3,1,wrong color,express,ashanti,7,1
+O00161,2025-06-19,2025-06-20,2025-06-23,s044,health,495.08,1.0,kano,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,south east,3,1
+O00162,2025-05-19,2025-05-19,2025-05-26,s005,home & living,343.94,1.0,kumasi,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,south west,7,1
+O00163,2025-06-17,2025-06-17,2025-06-21,s019,electronics,399.2,3.0,kano,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,greater accra,4,1
+O00164,2025-06-01,2025-06-05,2025-06-12,s009,electronics,482.86,2.0,kumasi,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,north central,7,1
+O00165,2025-05-08,2025-05-10,2025-05-10,s042,fashion,110.45,3.0,lag,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,0,1
+O00166,2025-06-23,2025-06-27,2025-07-04,s008,health,291.49,4.0,Unspecified,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,south west,7,1
+O00167,2025-06-12,2025-06-14,2025-06-18,s009,health,377.75,4.0,Unspecified,2.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,volta,4,1
+O00168,2025-05-10,2025-05-13,2025-05-21,s013,toys,320.54,2.0,Unspecified,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,north central,8,1
+O00169,2025-04-18,2025-04-20,2025-04-25,s030,electronics,202.3,4.0,Unspecified,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,south east,5,1
+O00170,2025-06-01,2025-06-01,2025-06-01,s015,toys,224.98,1.0,Unspecified,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,ashanti,0,1
+O00171,2025-04-10,2025-04-14,2025-04-21,s033,health,198.11,2.0,accra,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,south west,7,1
+O00172,2025-06-10,2025-06-12,2025-06-18,s004,home & living,276.0,2.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,south east,6,1
+O00173,2025-05-31,2025-06-04,2025-06-04,s038,electronics,349.92,4.0,accra,4.0,No review,-0.3,0,no complaint,pickup,volta,0,1
+O00174,2025-04-16,2025-04-20,2025-04-25,s031,health,448.01,4.0,kano,4.0,No review,-0.75,0,no complaint,standard,north central,5,1
+O00175,2025-05-24,2025-05-24,2025-05-27,s038,toys,356.42,3.0,lagos,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south east,3,1
+O00176,2025-06-25,2025-06-26,2025-06-26,s021,fashion,383.6,3.0,accra,2.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,ashanti,0,1
+O00177,2025-06-10,2025-06-13,2025-06-20,s017,toys,195.62,1.0,lagos,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,south west,7,1
+O00178,2025-06-19,2025-06-22,2025-06-23,s008,toys,274.53,1.0,lagos,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,volta,1,1
+O00179,2025-06-22,2025-06-24,2025-06-28,s050,fashion,287.1,2.0,kumasi,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,ashanti,4,1
+O00180,2025-05-26,2025-05-27,2025-06-05,s035,fashion,479.95,4.0,lagos,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,north central,9,1
+O00181,2025-06-19,2025-06-19,2025-06-26,s014,health,257.89,1.0,accra,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,north central,7,1
+O00182,2025-06-03,2025-06-06,2025-06-10,s007,groceries,466.74,4.0,kumasi,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,south west,4,1
+O00183,2025-04-18,2025-04-18,2025-04-27,s033,toy,356.55,2.0,accra,1.0,Very disappointed. Not what was shown online.,-0.975,1,broken item,express,volta,9,1
+O00184,2025-04-13,2025-04-15,2025-04-21,s038,living & home,61.08,1.0,kumasi,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,greater accra,6,1
+O00185,2025-06-24,2025-06-24,2025-06-24,s036,fashon,91.11,4.0,accra,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,south west,0,1
+O00186,2025-04-08,2025-04-12,2025-04-20,s033,electronics,264.23,4.0,kumasi,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,volta,8,1
+O00187,2025-04-15,2025-04-19,2025-04-28,s035,health,110.73,1.0,kano,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,south west,9,1
+O00188,2025-06-17,2025-06-18,2025-06-23,s017,fashion,205.1,1.0,kumasi,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,north central,5,1
+O00189,2025-05-04,2025-05-06,2025-05-06,s024,home & living,180.01,2.0,kano,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,volta,0,1
+O00190,2025-06-14,2025-06-16,2025-06-21,s002,groceries,26.09,3.0,kumasi,2.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,ashanti,5,1
+O00191,2025-06-21,2025-06-21,2025-06-21,s048,health,215.27,4.0,Unspecified,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,volta,0,1
+O00192,2025-04-23,2025-04-26,2025-04-27,s031,health,146.02,2.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,none,express,volta,1,1
+O00193,2025-05-09,2025-05-09,2025-05-09,s016,toys,97.24,4.0,accra,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,ashanti,0,1
+O00194,2025-05-29,2025-06-02,2025-06-09,s044,electronics,431.71,3.0,lagos,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south east,7,1
+O00195,2025-06-02,2025-06-04,2025-06-11,s043,fashion,301.74,1.0,kano,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,ashanti,7,1
+O00196,2025-05-25,2025-05-25,2025-06-01,s041,fashion,110.52,1.0,lagos,4.0,No review,0.420833333,0,no complaint,express,volta,7,1
+O00197,2025-04-19,2025-04-20,2025-04-21,s031,toys,154.08,3.0,accra,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,greater accra,1,1
+O00198,2025-04-19,2025-04-21,2025-04-24,s012,fashion,245.73,2.0,accra,2.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south east,3,1
+O00199,2025-05-12,2025-05-13,2025-05-22,s001,health,473.6,4.0,kumasi,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,volta,9,1
+O00200,2025-04-30,2025-05-03,2025-05-04,s020,toys,268.02,1.0,kumasi,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,ashanti,1,1
+O00201,2025-04-24,2025-04-26,2025-05-03,s029,electronics,209.91,1.0,kano,2.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,north central,7,1
+O00202,2025-06-11,2025-06-15,2025-06-17,s015,health,301.57,1.0,accra,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,volta,2,1
+O00203,2025-05-14,2025-05-15,2025-05-17,s023,electronics,282.79,4.0,kumasi,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south west,2,1
+O00204,2025-05-11,2025-05-13,2025-05-16,s005,toys,363.91,4.0,kano,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,north central,3,1
+O00205,2025-06-10,2025-06-11,2025-06-17,s002,electronics,79.13,2.0,kumasi,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,ashanti,6,1
+O00206,2025-05-03,2025-05-05,2025-05-07,s043,groceries,370.59,1.0,kano,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,ashanti,2,1
+O00207,2025-05-27,2025-05-27,2025-05-31,s007,electronics,216.5,2.0,kumasi,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south west,4,1
+O00208,2025-05-25,2025-05-27,2025-06-02,s036,home & living,137.12,2.0,accra,1.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,greater accra,6,1
+O00209,2025-04-19,2025-04-19,2025-04-20,s014,electronics,179.14,4.0,accra,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,greater accra,1,1
+O00210,2025-05-13,2025-05-16,2025-05-23,s019,toys,117.56,2.0,lagos,2.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,greater accra,7,1
+O00211,2025-06-12,2025-06-12,2025-06-13,s045,fashion,492.83,3.0,kano,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,north central,1,1
+O00212,2025-05-04,2025-05-04,2025-05-10,s016,health,275.4,1.0,kano,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,north central,6,1
+O00213,2025-05-09,2025-05-12,2025-05-21,s037,health,326.08,2.0,kumas,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,south west,9,1
+O00214,2025-05-14,2025-05-18,2025-05-23,s004,electronics,94.12,3.0,kano,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,north central,5,1
+O00215,2025-04-19,2025-04-19,2025-04-24,s038,toys,67.7,4.0,lagos,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,5,1
+O00216,2025-06-17,2025-06-21,2025-06-30,s013,fashion,253.76,4.0,kano,2.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,north central,9,1
+O00217,2025-04-28,2025-04-29,2025-05-07,s019,groceries,140.58,3.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,north central,8,1
+O00218,2025-05-30,2025-05-31,2025-06-04,s042,home & living,290.91,1.0,kumasi,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,volta,4,1
+O00219,2025-06-21,2025-06-22,2025-06-27,s043,toys,264.27,4.0,accra,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,ashanti,5,1
+O00220,2025-06-07,2025-06-09,2025-06-18,s016,electronics,50.57,4.0,kumasi,1.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,greater accra,9,1
+O00221,2025-06-06,2025-06-06,2025-06-12,s026,health,224.22,4.0,lag,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,north central,6,1
+O00222,2025-04-23,2025-04-27,2025-05-04,s026,groceries,475.16,3.0,lagos,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,7,1
+O00223,2025-06-01,2025-06-03,2025-06-05,s047,electronics,25.28,4.0,kano,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,south east,2,1
+O00224,2025-06-14,2025-06-18,2025-06-19,s014,home & living,424.74,3.0,Unspecified,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,volta,1,1
+O00225,2025-04-19,2025-04-19,2025-04-26,s003,groceries,242.38,1.0,kumasi,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,ashanti,7,1
+O00226,2025-06-24,2025-06-25,2025-07-03,s016,health,252.79,3.0,lagos,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,ashanti,8,1
+O00227,2025-04-15,2025-04-18,2025-04-20,s045,health,411.36,1.0,lagos,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,south east,2,1
+O00228,2025-06-01,2025-06-05,2025-06-05,s006,electronics,299.21,3.0,kano,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,north central,0,1
+O00229,2025-05-16,2025-05-19,2025-05-26,s050,fashion,228.54,3.0,kumasi,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,south east,7,1
+O00230,2025-04-22,2025-04-26,2025-05-01,s018,groceries,323.09,1.0,kumasi,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,5,1
+O00231,2025-06-05,2025-06-05,2025-06-14,s049,fashion,490.48,2.0,accra,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,ashanti,9,1
+O00232,2025-06-22,2025-06-22,2025-06-28,s049,health,31.64,4.0,accra,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,greater accra,6,1
+O00233,2025-04-19,2025-04-23,2025-04-29,s049,fashion,241.87,3.0,kumas,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,south west,6,1
+O00234,2025-06-13,2025-06-15,2025-06-21,s010,toys,462.95,2.0,lagos,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,greater accra,6,1
+O00235,2025-04-24,2025-04-26,2025-04-27,s039,electronics,375.08,4.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south west,1,1
+O00236,2025-05-01,2025-05-03,2025-05-04,s004,groceries,325.83,2.0,accra,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,greater accra,1,1
+O00237,2025-04-18,2025-04-21,2025-04-27,s005,home & living,269.83,2.0,kano,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,north central,6,1
+O00238,2025-04-19,2025-04-19,2025-04-20,s002,health,274.35,1.0,accra,4.0,No review,0.458333333,0,no complaint,express,south east,1,1
+O00239,2025-04-20,2025-04-21,2025-04-27,s006,health,219.14,4.0,accra,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,south east,6,1
+O00240,2025-05-05,2025-05-09,2025-05-10,s017,home & living,495.27,3.0,kano,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,ashanti,1,1
+O00241,2025-05-25,2025-05-28,2025-05-28,s030,home & living,401.4,3.0,kumasi,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,south east,0,1
+O00242,2025-05-03,2025-05-06,2025-05-14,s014,fashion,245.14,1.0,accra,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,north central,8,1
+O00243,2025-04-24,2025-04-27,2025-05-01,s003,electronics,214.71,3.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,4,1
+O00244,2025-06-11,2025-06-12,2025-06-15,s008,toys,11.64,1.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,north central,3,1
+O00245,2025-06-04,2025-06-04,2025-06-08,s021,groceries,298.66,4.0,lagos,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,ashanti,4,1
+O00246,2025-04-16,2025-04-16,2025-04-23,s027,electronics,219.61,1.0,kumasi,2.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,south east,7,1
+O00247,2025-06-03,2025-06-05,2025-06-10,s050,electronics,401.01,1.0,kumasi,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,greater accra,5,1
+O00248,2025-04-16,2025-04-18,2025-04-19,s044,health,443.26,4.0,accra,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,south east,1,1
+O00249,2025-04-11,2025-04-15,2025-04-20,s033,groceries,123.52,4.0,lagos,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,none,standard,greater accra,5,1
+O00250,2025-06-19,2025-06-21,2025-06-22,s050,electronics,261.22,2.0,kano,3.0,Very disappointed. Not what was shown online.,-0.975,0,none,pickup,north central,1,1
+O00251,2025-05-18,2025-05-20,2025-05-27,s024,electronics,28.0,2.0,kano,3.0,"Delivery was average, product as expected.",-0.125,0,none,pickup,volta,7,1
+O00252,2025-05-21,2025-05-21,2025-05-29,s019,electronics,38.34,3.0,lagos,5.0,No review,-0.975,0,none,express,volta,8,1
+O00253,2025-04-10,2025-04-12,2025-04-21,s045,electronics,497.5,1.0,kumasi,4.0,Very disappointed. Not what was shown online.,-0.975,0,none,pickup,south east,9,1
+O00254,2025-05-20,2025-05-22,2025-05-24,s039,fashion,250.68,1.0,Unspecified,3.0,Very disappointed. Not what was shown online.,-0.975,0,none,pickup,ashanti,2,1
+O00255,2025-06-04,2025-06-04,2025-06-12,s025,health,119.67,3.0,kumasi,5.0,Terrible experience. Product was broken.,-0.7,0,none,standard,volta,8,1
+O00256,2025-05-02,2025-05-02,2025-05-09,s017,fashion,431.46,3.0,kumasi,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south east,7,1
+O00257,2025-05-07,2025-05-09,2025-05-17,s029,electronics,73.46,1.0,accra,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,ashanti,8,1
+O00258,2025-06-13,2025-06-13,2025-06-17,s002,fashion,27.36,3.0,lag,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,north central,4,1
+O00259,2025-05-27,2025-05-29,2025-06-02,s035,electronics,147.88,4.0,kumasi,1.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,south west,4,1
+O00260,2025-05-10,2025-05-14,2025-05-18,s016,toys,481.44,4.0,kumasi,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,south west,4,1
+O00261,2025-06-15,2025-06-19,2025-06-21,s005,electronics,40.14,1.0,lagos,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,2,1
+O00262,2025-04-29,2025-05-01,2025-05-01,s002,groceries,180.43,2.0,kano,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,south west,0,1
+O00263,2025-05-29,2025-06-01,2025-06-01,s030,health,400.74,4.0,kano,2.0,"Absolutely love this product, great value for money.",0.65,0,none,express,volta,0,1
+O00264,2025-05-25,2025-05-25,2025-05-29,s021,electronics,173.66,1.0,kumasi,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,greater accra,4,1
+O00265,2025-06-15,2025-06-18,2025-06-24,s038,toys,313.12,2.0,lagos,5.0,"Just received it, will see how it performs over time.",0.0,0,none,pickup,north central,6,1
+O00266,2025-06-09,2025-06-11,2025-06-17,s005,toys,481.04,1.0,kumasi,1.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,north central,6,1
+O00267,2025-04-30,2025-05-01,2025-05-04,s047,groceries,122.03,3.0,lagos,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,south east,3,1
+O00268,2025-06-16,2025-06-17,2025-06-17,s050,electronics,380.75,4.0,lagos,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,greater accra,0,1
+O00269,2025-05-08,2025-05-11,2025-05-18,s020,health,66.76,2.0,kano,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,greater accra,7,1
+O00270,2025-06-10,2025-06-11,2025-06-19,s045,toys,72.94,3.0,kumasi,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,south east,8,1
+O00271,2025-05-28,2025-06-01,2025-06-06,s026,electronics,177.52,4.0,kano,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,south east,5,1
+O00272,2025-05-01,2025-05-04,2025-05-04,s027,home & living,347.06,2.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,0,1
+O00273,2025-06-20,2025-06-20,2025-06-25,s025,home & living,357.2,2.0,kumasi,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,volta,5,1
+O00274,2025-04-12,2025-04-16,2025-04-19,s005,health,32.41,2.0,lagos,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south east,3,1
+O00275,2025-04-25,2025-04-29,2025-04-29,s034,home & living,301.25,4.0,kumasi,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,greater accra,0,1
+O00276,2025-04-19,2025-04-21,2025-04-30,s049,groceries,249.44,3.0,kumasi,1.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,south west,9,1
+O00277,2025-06-13,2025-06-13,2025-06-15,s031,home & living,239.58,4.0,lagos,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south west,2,1
+O00278,2025-04-11,2025-04-15,2025-04-18,s002,home & living,90.18,3.0,accra,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,south east,3,1
+O00279,2025-05-24,2025-05-26,2025-05-28,s028,groceries,388.68,4.0,accra,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,greater accra,2,1
+O00280,2025-05-20,2025-05-24,2025-05-28,s021,groceries,84.02,4.0,accra,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,ashanti,4,1
+O00281,2025-04-15,2025-04-17,2025-04-25,s013,toys,430.11,4.0,kano,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,8,1
+O00282,2025-06-22,2025-06-25,2025-06-30,s008,groceries,162.86,2.0,kano,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,ashanti,5,1
+O00283,2025-04-20,2025-04-20,2025-04-28,s025,home & living,114.42,4.0,accra,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,south west,8,1
+O00284,2025-06-22,2025-06-24,2025-07-01,s017,electronics,285.75,4.0,lagos,2.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,south west,7,1
+O00285,2025-04-28,2025-04-30,2025-05-01,s017,electronics,54.67,4.0,kumasi,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,north central,1,1
+O00286,2025-05-18,2025-05-21,2025-05-25,s012,electronics,316.85,4.0,kumasi,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,volta,4,1
+O00287,2025-06-03,2025-06-03,2025-06-09,s042,health,484.08,4.0,kano,2.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,volta,6,1
+O00288,2025-06-19,2025-06-19,2025-06-24,s045,health,220.85,2.0,Unspecified,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,volta,5,1
+O00289,2025-06-19,2025-06-21,2025-06-21,s024,fashion,141.81,4.0,kano,1.0,"Just received it, will see how it performs over time.",0.0,1,no complaint,standard,south east,0,1
+O00290,2025-05-17,2025-05-19,2025-05-27,s006,electronics,202.32,2.0,lagos,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,south east,8,1
+O00291,2025-05-30,2025-06-01,2025-06-06,s031,electronics,392.13,4.0,lagos,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,south east,5,1
+O00292,2025-05-05,2025-05-05,2025-05-10,s013,toys,81.5,4.0,lagos,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south west,5,1
+O00293,2025-05-23,2025-05-24,2025-05-24,s025,groceries,354.21,2.0,kano,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,greater accra,0,1
+O00294,2025-05-31,2025-05-31,2025-06-03,s032,toys,53.05,1.0,lagos,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,ashanti,3,1
+O00295,2025-06-01,2025-06-02,2025-06-11,s020,electronics,167.83,2.0,lagos,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south east,9,1
+O00296,2025-06-01,2025-06-04,2025-06-04,s049,toys,108.07,3.0,kumasi,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,0,1
+O00297,2025-04-14,2025-04-14,2025-04-19,s002,electronics,70.87,3.0,kumas,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,greater accra,5,1
+O00298,2025-04-08,2025-04-09,2025-04-16,s041,groceries,310.34,1.0,kano,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,greater accra,7,1
+O00299,2025-04-19,2025-04-21,2025-04-27,s005,fashion,316.4,4.0,lagos,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,north central,6,1
+O00300,2025-05-28,2025-05-29,2025-06-03,s001,health,280.97,2.0,kano,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south west,5,1
+O00301,2025-06-13,2025-06-16,2025-06-25,s020,health,325.35,1.0,accra,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,9,1
+O00302,2025-04-26,2025-04-29,2025-05-07,s037,groceries,365.17,4.0,kano,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south west,8,1
+O00303,2025-05-02,2025-05-05,2025-05-12,s020,electronics,117.41,3.0,kano,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south east,7,1
+O00304,2025-06-14,2025-06-16,2025-06-17,s005,home & living,222.49,4.0,accra,1.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,volta,1,1
+O00305,2025-04-24,2025-04-24,2025-04-26,s034,fashion,172.83,4.0,kano,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,north central,2,1
+O00306,2025-06-06,2025-06-06,2025-06-12,s009,home & living,118.07,2.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,north central,6,1
+O00307,2025-05-12,2025-05-13,2025-05-20,s014,health,435.45,3.0,kumasi,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,south east,7,1
+O00308,2025-05-03,2025-05-06,2025-05-13,s010,groceries,179.51,4.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,ashanti,7,1
+O00309,2025-04-28,2025-05-01,2025-05-10,s006,home & living,261.86,1.0,kumasi,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,south east,9,1
+O00310,2025-05-15,2025-05-16,2025-05-19,s004,groceries,248.47,2.0,lagos,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,ashanti,3,1
+O00311,2025-05-27,2025-05-28,2025-06-02,s048,fashion,145.65,3.0,kano,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,5,1
+O00312,2025-04-18,2025-04-22,2025-04-22,s033,groceries,198.09,2.0,kano,2.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,south east,0,1
+O00313,2025-05-05,2025-05-06,2025-05-07,s027,electronics,455.43,3.0,accra,2.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south east,1,1
+O00314,2025-06-09,2025-06-12,2025-06-19,s048,home & living,251.22,2.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south east,7,1
+O00315,2025-06-15,2025-06-15,2025-06-23,s014,toys,334.68,3.0,kano,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,north central,8,1
+O00316,2025-04-25,2025-04-29,2025-04-29,s014,groceries,136.49,1.0,kumasi,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,greater accra,0,1
+O00317,2025-05-19,2025-05-21,2025-05-30,s047,groceries,74.13,1.0,kano,1.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,ashanti,9,1
+O00318,2025-06-20,2025-06-23,2025-07-01,s048,fashion,264.69,2.0,lagos,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,volta,8,1
+O00319,2025-05-13,2025-05-16,2025-05-16,s009,toys,131.87,3.0,kumasi,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,greater accra,0,1
+O00320,2025-04-17,2025-04-17,2025-04-21,s014,toys,186.03,4.0,kano,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,south east,4,1
+O00321,2025-05-13,2025-05-13,2025-05-20,s021,fashion,271.42,1.0,accra,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,south west,7,1
+O00322,2025-04-14,2025-04-17,2025-04-20,s015,groceries,296.82,3.0,kano,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,south west,3,1
+O00323,2025-04-26,2025-04-30,2025-05-03,s001,toys,37.97,3.0,kano,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,north central,3,1
+O00324,2025-06-18,2025-06-22,2025-06-26,s044,health,120.1,1.0,kumasi,2.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,ashanti,4,1
+O00325,2025-05-15,2025-05-19,2025-05-20,s034,fashion,347.22,4.0,kano,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,north central,1,1
+O00326,2025-04-24,2025-04-24,2025-04-25,s027,toys,12.42,2.0,kumasi,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,volta,1,1
+O00327,2025-04-27,2025-04-29,2025-04-30,s046,home & living,294.25,4.0,lagos,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south west,1,1
+O00328,2025-05-25,2025-05-29,2025-06-01,s037,fashion,270.8,3.0,kano,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,volta,3,1
+O00329,2025-04-22,2025-04-23,2025-04-27,s012,home & living,108.91,3.0,kumasi,1.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,volta,4,1
+O00330,2025-05-06,2025-05-07,2025-05-07,s021,toys,227.44,1.0,lagos,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,north central,0,1
+O00331,2025-05-16,2025-05-17,2025-05-18,s001,fashion,472.86,2.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,south west,1,1
+O00332,2025-05-19,2025-05-19,2025-05-26,s047,toys,435.76,4.0,accra,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,volta,7,1
+O00333,2025-06-20,2025-06-22,2025-06-26,s016,health,460.15,1.0,accra,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,greater accra,4,1
+O00334,2025-06-17,2025-06-20,2025-06-21,s028,health,292.82,2.0,Unspecified,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,south west,1,1
+O00335,2025-04-27,2025-04-27,2025-05-05,s011,health,33.62,1.0,Unspecified,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,ashanti,8,1
+O00336,2025-05-19,2025-05-23,2025-05-31,s048,fashion,378.69,1.0,Unspecified,2.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,ashanti,8,1
+O00337,2025-06-09,2025-06-11,2025-06-16,s046,fashion,384.94,4.0,Unspecified,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,volta,5,1
+O00338,2025-06-09,2025-06-11,2025-06-11,s021,toys,440.17,3.0,kumas,2.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,ashanti,0,1
+O00339,2025-05-17,2025-05-17,2025-05-26,s029,fashion,12.82,3.0,kumasi,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,south west,9,1
+O00340,2025-06-02,2025-06-06,2025-06-14,s030,fashion,350.78,4.0,kumasi,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,volta,8,1
+O00341,2025-06-13,2025-06-16,2025-06-21,s041,fashion,277.39,3.0,kumasi,1.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,south east,5,1
+O00342,2025-05-22,2025-05-23,2025-05-31,s050,toys,337.42,2.0,accra,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,south west,8,1
+O00343,2025-06-04,2025-06-05,2025-06-10,s010,toys,433.03,4.0,kumasi,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south east,5,1
+O00344,2025-04-26,2025-04-29,2025-05-03,s002,electronics,408.75,1.0,kano,3.0,No review,1.0,0,no complaint,standard,volta,4,1
+O00345,2025-06-22,2025-06-25,2025-07-01,s050,home & living,294.28,4.0,kano,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,greater accra,6,1
+O00346,2025-05-30,2025-06-01,2025-06-05,s036,home & living,361.88,3.0,lagos,2.0,"Absolutely love this product, great value for money.",0.65,1,no complaint,standard,south east,4,1
+O00347,2025-04-23,2025-04-23,2025-04-26,s038,home & living,327.26,4.0,kumasi,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,south west,3,1
+O00348,2025-05-19,2025-05-23,2025-05-28,s006,health,39.53,1.0,kumasi,2.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,ashanti,5,1
+O00349,2025-04-22,2025-04-25,2025-04-27,s033,health,312.5,1.0,accra,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,volta,2,1
+O00350,2025-05-09,2025-05-10,2025-05-11,s042,electronics,53.92,2.0,kumasi,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,north central,1,1
+O00351,2025-05-21,2025-05-23,2025-05-29,s008,toys,212.64,1.0,lagos,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,ashanti,6,1
+O00352,2025-05-14,2025-05-14,2025-05-23,s003,electronics,98.9,1.0,lagos,2.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,south east,9,1
+O00353,2025-06-23,2025-06-23,2025-06-30,s008,toys,218.02,2.0,kano,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,volta,7,1
+O00354,2025-04-18,2025-04-22,2025-04-27,s022,health,65.03,1.0,lagos,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,greater accra,5,1
+O00355,2025-05-28,2025-05-29,2025-06-05,s019,groceries,398.93,3.0,accra,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,south east,7,1
+O00356,2025-04-11,2025-04-11,2025-04-20,s012,toys,421.53,4.0,accra,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,north central,9,1
+O00357,2025-05-17,2025-05-19,2025-05-22,s050,toys,158.01,4.0,kumasi,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,south east,3,1
+O00358,2025-05-05,2025-05-07,2025-05-10,s010,fashion,337.1,2.0,accra,2.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south west,3,1
+O00359,2025-04-17,2025-04-19,2025-04-20,s042,health,84.96,1.0,lagos,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,ashanti,1,1
+O00360,2025-04-09,2025-04-13,2025-04-15,s005,groceries,272.33,2.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,2,1
+O00361,2025-04-18,2025-04-18,2025-04-26,s026,electronics,277.88,2.0,kumasi,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,ashanti,8,1
+O00362,2025-05-18,2025-05-22,2025-05-23,s044,groceries,494.01,3.0,lagos,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south east,1,1
+O00363,2025-04-10,2025-04-10,2025-04-10,s041,electronics,219.82,3.0,accra,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,north central,0,1
+O00364,2025-05-30,2025-05-31,2025-06-05,s033,home & living,411.17,4.0,kano,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,ashanti,5,1
+O00365,2025-04-17,2025-04-20,2025-04-27,s036,home & living,144.34,2.0,accra,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,south east,7,1
+O00366,2025-05-12,2025-05-12,2025-05-17,s027,toys,301.92,1.0,kumasi,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,greater accra,5,1
+O00367,2025-05-03,2025-05-06,2025-05-07,s025,health,44.02,1.0,lagos,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,volta,1,1
+O00368,2025-04-22,2025-04-26,2025-05-03,s011,groceries,44.27,4.0,kano,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,volta,7,1
+O00369,2025-06-24,2025-06-27,2025-07-06,s010,electronics,328.93,2.0,kano,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,volta,9,1
+O00370,2025-05-14,2025-05-17,2025-05-18,s047,electronics,338.05,3.0,kano,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,volta,1,1
+O00371,2025-05-29,2025-06-01,2025-06-08,s008,groceries,497.79,3.0,accra,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,ashanti,7,1
+O00372,2025-06-25,2025-06-29,2025-07-07,s038,electronics,53.5,1.0,accra,2.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,ashanti,8,1
+O00373,2025-05-31,2025-06-03,2025-06-03,s019,groceries,217.12,3.0,kumasi,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,volta,0,1
+O00374,2025-06-01,2025-06-05,2025-06-11,s025,toys,490.81,3.0,accra,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,south west,6,1
+O00375,2025-06-22,2025-06-25,2025-07-02,s049,fashion,84.68,1.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,volta,7,1
+O00376,2025-04-11,2025-04-15,2025-04-18,s006,health,129.39,2.0,accra,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,south east,3,1
+O00377,2025-04-30,2025-04-30,2025-05-04,s031,electronics,53.67,3.0,lagos,5.0,No review,-0.75,0,no complaint,standard,greater accra,4,1
+O00378,2025-05-24,2025-05-28,2025-05-31,s043,fashion,393.19,2.0,accra,3.0,No review,0.58,0,no complaint,pickup,volta,3,1
+O00379,2025-05-26,2025-05-26,2025-05-30,s037,fashion,138.93,2.0,lagos,3.0,No review,-0.3,0,no complaint,pickup,south west,4,1
+O00380,2025-04-12,2025-04-14,2025-04-16,s036,groceries,127.14,1.0,lagos,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,ashanti,2,1
+O00381,2025-05-25,2025-05-26,2025-06-01,s010,electronics,229.13,4.0,lagos,2.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,north central,6,1
+O00382,2025-06-09,2025-06-13,2025-06-16,s038,electronics,291.55,4.0,lagos,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,south east,3,1
+O00383,2025-06-05,2025-06-06,2025-06-08,s034,electronics,465.99,2.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,2,1
+O00384,2025-06-23,2025-06-25,2025-07-01,s032,fashion,270.92,2.0,kano,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,south east,6,1
+O00385,2025-05-29,2025-05-31,2025-06-01,s011,home & living,49.65,1.0,lagos,2.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,north central,1,1
+O00386,2025-06-02,2025-06-03,2025-06-11,s016,health,479.09,2.0,accra,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,volta,8,1
+O00387,2025-04-11,2025-04-14,2025-04-14,s034,groceries,244.88,1.0,lagos,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,ashanti,0,1
+O00388,2025-06-17,2025-06-20,2025-06-22,s050,toys,384.76,1.0,accra,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,ashanti,2,1
+O00389,2025-04-14,2025-04-18,2025-04-19,s019,health,414.35,1.0,accra,1.0,"Met my expectations, nothing more.",0.5,1,wrong color,pickup,greater accra,1,1
+O00390,2025-04-12,2025-04-16,2025-04-19,s048,health,76.23,4.0,kumasi,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,volta,3,1
+O00391,2025-04-29,2025-05-03,2025-05-04,s003,groceries,61.78,2.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,south east,1,1
+O00392,2025-04-09,2025-04-13,2025-04-15,s013,health,84.49,3.0,kano,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,greater accra,2,1
+O00393,2025-04-07,2025-04-11,2025-04-18,s010,toys,247.45,2.0,kano,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south west,7,1
+O00394,2025-06-05,2025-06-07,2025-06-11,s015,health,220.87,1.0,kumasi,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,ashanti,4,1
+O00395,2025-06-11,2025-06-14,2025-06-14,s049,fashion,59.51,4.0,kano,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,south east,0,1
+O00396,2025-06-20,2025-06-24,2025-06-30,s049,health,498.38,1.0,kano,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,greater accra,6,1
+O00397,2025-05-28,2025-05-31,2025-06-05,s019,home & living,95.14,4.0,lagos,3.0,No review,0.58,0,no complaint,express,south east,5,1
+O00398,2025-05-02,2025-05-06,2025-05-08,s027,toys,74.05,4.0,kano,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,south west,2,1
+O00399,2025-06-06,2025-06-10,2025-06-15,s015,fashion,212.92,2.0,lagos,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,ashanti,5,1
+O00400,2025-04-09,2025-04-11,2025-04-15,s010,electronics,131.8,2.0,kano,1.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,volta,4,1
+O00401,2025-04-08,2025-04-12,2025-04-12,s030,home & living,382.54,2.0,kumasi,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,south west,0,1
+O00402,2025-04-30,2025-05-04,2025-05-08,s010,electronics,418.81,1.0,accra,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south east,4,1
+O00403,2025-04-07,2025-04-07,2025-04-09,s012,health,480.19,4.0,accra,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,south west,2,1
+O00404,2025-04-21,2025-04-24,2025-04-30,s022,fashion,326.58,1.0,accra,2.0,Very disappointed. Not what was shown online.,-0.975,1,no complaint,standard,volta,6,1
+O00405,2025-06-21,2025-06-24,2025-06-25,s046,fashion,433.68,4.0,lagos,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,north central,1,1
+O00406,2025-05-27,2025-05-31,2025-06-05,s037,health,194.19,4.0,kumasi,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,north central,5,1
+O00407,2025-05-16,2025-05-16,2025-05-16,s017,electronics,478.55,1.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,north central,0,1
+O00408,2025-06-01,2025-06-04,2025-06-04,s020,home & living,471.99,2.0,kano,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,south east,0,1
+O00409,2025-05-23,2025-05-27,2025-06-02,s040,fashion,28.83,4.0,kano,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,ashanti,6,1
+O00410,2025-05-11,2025-05-11,2025-05-11,s016,groceries,448.61,4.0,kumasi,1.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,north central,0,1
+O00411,2025-06-24,2025-06-27,2025-06-27,s031,health,83.58,4.0,kano,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,north central,0,1
+O00412,2025-05-14,2025-05-14,2025-05-20,s008,home & living,33.44,4.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south east,6,1
+O00413,2025-04-22,2025-04-24,2025-05-01,s032,home & living,45.32,4.0,kano,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,north central,7,1
+O00414,2025-05-29,2025-06-01,2025-06-04,s010,toys,199.92,3.0,kumasi,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south east,3,1
+O00415,2025-06-24,2025-06-26,2025-07-05,s042,home & living,334.07,4.0,kano,1.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south west,9,1
+O00416,2025-05-14,2025-05-15,2025-05-20,s045,home & living,384.54,4.0,lagos,1.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,south west,5,1
+O00417,2025-05-11,2025-05-11,2025-05-19,s048,fashion,450.46,4.0,accra,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,ashanti,8,1
+O00418,2025-04-28,2025-05-01,2025-05-04,s016,health,110.79,1.0,lagos,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,3,1
+O00419,2025-06-19,2025-06-20,2025-06-29,s011,groceries,325.51,2.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,north central,9,1
+O00420,2025-05-19,2025-05-20,2025-05-25,s015,fashion,153.48,4.0,kumasi,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,volta,5,1
+O00421,2025-04-28,2025-05-01,2025-05-02,s026,health,460.95,4.0,lagos,2.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south west,1,1
+O00422,2025-04-11,2025-04-11,2025-04-19,s034,electronics,464.76,3.0,kumasi,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,north central,8,1
+O00423,2025-05-05,2025-05-05,2025-05-06,s048,toys,279.55,2.0,kumasi,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,greater accra,1,1
+O00424,2025-04-28,2025-05-01,2025-05-03,s018,fashion,127.94,1.0,kumasi,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,ashanti,2,1
+O00425,2025-05-05,2025-05-06,2025-05-12,s029,health,326.45,3.0,accra,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,greater accra,6,1
+O00426,2025-05-21,2025-05-22,2025-05-26,s027,groceries,136.63,3.0,kumasi,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,north central,4,1
+O00427,2025-04-09,2025-04-12,2025-04-17,s028,toys,235.66,4.0,kano,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,greater accra,5,1
+O00428,2025-04-09,2025-04-13,2025-04-14,s035,health,141.97,4.0,accra,2.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,south east,1,1
+O00429,2025-05-22,2025-05-24,2025-05-30,s050,groceries,55.02,2.0,lagos,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,6,1
+O00430,2025-04-07,2025-04-11,2025-04-11,s018,electronics,369.07,3.0,kumasi,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,greater accra,0,1
+O00431,2025-05-02,2025-05-06,2025-05-12,s028,home & living,155.8,3.0,kano,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,south west,6,1
+O00432,2025-05-26,2025-05-27,2025-06-05,s033,electronics,439.8,1.0,accra,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,ashanti,9,1
+O00433,2025-06-19,2025-06-22,2025-06-29,s025,groceries,365.97,1.0,kano,2.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,north central,7,1
+O00434,2025-06-25,2025-06-26,2025-06-30,s014,groceries,332.2,1.0,lagos,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,south west,4,1
+O00435,2025-05-13,2025-05-14,2025-05-22,s003,health,311.83,3.0,kumasi,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,north central,8,1
+O00436,2025-06-21,2025-06-22,2025-07-01,s009,fashion,273.96,4.0,lagos,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,south east,9,1
+O00437,2025-04-20,2025-04-20,2025-04-21,s042,health,418.01,2.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,1,1
+O00438,2025-05-21,2025-05-23,2025-05-29,s009,health,342.41,4.0,kano,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,ashanti,6,1
+O00439,2025-05-29,2025-06-01,2025-06-04,s050,health,256.0,2.0,lagos,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,volta,3,1
+O00440,2025-04-08,2025-04-09,2025-04-13,s018,health,444.24,3.0,accra,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,south east,4,1
+O00441,2025-06-15,2025-06-19,2025-06-28,s037,home & living,10.92,3.0,kumasi,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,volta,9,1
+O00442,2025-05-01,2025-05-05,2025-05-08,s014,groceries,184.19,1.0,accra,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,south west,3,1
+O00443,2025-06-09,2025-06-11,2025-06-18,s031,groceries,438.39,1.0,kumasi,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,greater accra,7,1
+O00444,2025-05-07,2025-05-08,2025-05-09,s038,electronics,354.44,4.0,accra,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,south east,1,1
+O00445,2025-05-10,2025-05-10,2025-05-12,s002,home & living,21.24,3.0,kumasi,1.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,north central,2,1
+O00446,2025-05-24,2025-05-28,2025-05-31,s039,home & living,394.6,2.0,kano,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,volta,3,1
+O00447,2025-06-01,2025-06-01,2025-06-07,s004,health,225.7,4.0,lagos,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,north central,6,1
+O00448,2025-05-31,2025-06-02,2025-06-10,s006,health,192.0,1.0,accra,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,south east,8,1
+O00449,2025-05-04,2025-05-07,2025-05-10,s046,fashion,324.86,1.0,kumasi,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,volta,3,1
+O00450,2025-06-11,2025-06-14,2025-06-20,s022,fashion,67.98,2.0,lagos,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,south west,6,1
+O00451,2025-04-19,2025-04-22,2025-05-01,s044,health,298.01,1.0,kano,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,volta,9,1
+O00452,2025-06-25,2025-06-29,2025-07-04,s041,toys,22.84,1.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,ashanti,5,1
+O00453,2025-05-10,2025-05-12,2025-05-21,s029,home & living,156.38,1.0,accra,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,north central,9,1
+O00454,2025-06-02,2025-06-06,2025-06-10,s030,fashion,120.52,1.0,accra,4.0,No review,-0.75,0,no complaint,standard,volta,4,1
+O00455,2025-05-03,2025-05-07,2025-05-10,s021,electronics,223.24,4.0,accra,2.0,Fake product and horrible packaging.,-0.75,1,wrong item,express,south west,3,1
+O00456,2025-04-19,2025-04-21,2025-04-21,s032,health,366.69,2.0,lagos,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,greater accra,0,1
+O00457,2025-05-10,2025-05-13,2025-05-21,s035,groceries,13.44,1.0,accra,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south east,8,1
+O00458,2025-04-10,2025-04-14,2025-04-21,s019,groceries,331.91,4.0,lagos,1.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,7,1
+O00459,2025-04-26,2025-04-29,2025-05-06,s001,fashion,138.24,3.0,accra,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south west,7,1
+O00460,2025-04-13,2025-04-14,2025-04-22,s024,home & living,191.89,3.0,kumasi,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,south east,8,1
+O00461,2025-04-15,2025-04-18,2025-04-25,s017,electronics,42.03,1.0,lagos,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,volta,7,1
+O00462,2025-06-13,2025-06-16,2025-06-17,s022,fashion,285.38,1.0,kumasi,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south east,1,1
+O00463,2025-05-17,2025-05-18,2025-05-25,s001,electronics,180.2,3.0,kano,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,volta,7,1
+O00464,2025-06-12,2025-06-16,2025-06-25,s006,electronics,72.71,4.0,kumasi,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,greater accra,9,1
+O00465,2025-06-05,2025-06-05,2025-06-09,s035,groceries,395.98,2.0,kano,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,south west,4,1
+O00466,2025-04-15,2025-04-16,2025-04-20,s044,groceries,135.7,3.0,accra,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,greater accra,4,1
+O00467,2025-06-10,2025-06-14,2025-06-22,s013,fashion,237.33,1.0,lagos,2.0,"Met my expectations, nothing more.",0.5,1,wrong color,pickup,south east,8,1
+O00468,2025-06-19,2025-06-20,2025-06-28,s011,health,362.8,3.0,lagos,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,north central,8,1
+O00469,2025-06-08,2025-06-12,2025-06-13,s042,health,285.0,1.0,kumasi,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,north central,1,1
+O00470,2025-05-28,2025-05-28,2025-05-28,s034,home & living,275.85,3.0,kano,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south west,0,1
+O00471,2025-05-05,2025-05-05,2025-05-14,s022,health,120.81,2.0,kano,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,ashanti,9,1
+O00472,2025-06-12,2025-06-13,2025-06-14,s037,fashion,426.49,2.0,accra,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,volta,1,1
+O00473,2025-04-14,2025-04-17,2025-04-24,s007,health,235.48,3.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,volta,7,1
+O00474,2025-04-16,2025-04-17,2025-04-19,s034,groceries,64.85,3.0,kano,1.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,greater accra,2,1
+O00475,2025-04-23,2025-04-27,2025-04-30,s023,groceries,108.67,3.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,3,1
+O00476,2025-05-26,2025-05-30,2025-06-04,s005,health,381.63,4.0,lagos,2.0,No review,1.0,0,no complaint,express,ashanti,5,1
+O00477,2025-04-14,2025-04-15,2025-04-24,s027,toys,473.85,4.0,kano,4.0,No review,0.458333333,0,no complaint,pickup,south west,9,1
+O00478,2025-04-22,2025-04-24,2025-05-01,s013,groceries,280.73,4.0,lagos,3.0,No review,-0.75,0,no complaint,express,south east,7,1
+O00479,2025-06-05,2025-06-08,2025-06-14,s043,home & living,201.46,3.0,lagos,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,greater accra,6,1
+O00480,2025-05-22,2025-05-26,2025-05-28,s029,groceries,196.41,3.0,kumasi,2.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,south east,2,1
+O00481,2025-05-24,2025-05-27,2025-06-04,s007,home & living,56.08,4.0,kumasi,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,greater accra,8,1
+O00482,2025-06-04,2025-06-04,2025-06-11,s043,fashion,320.95,3.0,accra,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,greater accra,7,1
+O00483,2025-05-20,2025-05-23,2025-05-24,s019,health,229.33,2.0,kumasi,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,greater accra,1,1
+O00484,2025-06-19,2025-06-21,2025-06-22,s016,fashion,430.02,3.0,kumasi,2.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,ashanti,1,1
+O00485,2025-06-20,2025-06-24,2025-06-28,s042,fashion,303.08,3.0,kano,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,south west,4,1
+O00486,2025-06-17,2025-06-19,2025-06-27,s007,fashion,311.5,2.0,kumasi,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,8,1
+O00487,2025-06-11,2025-06-11,2025-06-17,s025,home & living,257.55,4.0,kumasi,2.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,south east,6,1
+O00488,2025-05-21,2025-05-22,2025-05-28,s010,fashion,168.28,4.0,kumasi,2.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south west,6,1
+O00489,2025-05-09,2025-05-09,2025-05-12,s018,home & living,55.58,4.0,kano,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,south east,3,1
+O00490,2025-05-01,2025-05-03,2025-05-11,s015,toys,48.91,1.0,lagos,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,south west,8,1
+O00491,2025-06-01,2025-06-04,2025-06-12,s014,toys,274.99,3.0,kumasi,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south east,8,1
+O00492,2025-04-11,2025-04-11,2025-04-15,s033,electronics,412.6,4.0,kumasi,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,4,1
+O00493,2025-06-16,2025-06-19,2025-06-28,s027,electronics,411.44,4.0,lagos,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,volta,9,1
+O00494,2025-04-15,2025-04-15,2025-04-19,s024,electronics,65.34,2.0,accra,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,volta,4,1
+O00495,2025-05-17,2025-05-18,2025-05-27,s026,electronics,453.63,3.0,kano,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,greater accra,9,1
+O00496,2025-05-04,2025-05-04,2025-05-08,s028,health,223.4,4.0,kano,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,greater accra,4,1
+O00497,2025-06-03,2025-06-05,2025-06-05,s040,electronics,423.43,3.0,accra,2.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,south east,0,1
+O00498,2025-06-12,2025-06-15,2025-06-21,s008,toys,169.3,4.0,kano,2.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,greater accra,6,1
+O00499,2025-05-25,2025-05-27,2025-05-30,s033,electronics,495.95,3.0,kumasi,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,ashanti,3,1
+O00500,2025-06-20,2025-06-24,2025-06-26,s049,health,115.61,3.0,lagos,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,north central,2,1
+O00501,2025-04-29,2025-05-02,2025-05-02,s029,fashion,210.07,4.0,accra,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,greater accra,0,1
+O00502,2025-06-25,2025-06-26,2025-06-28,s003,fashion,396.34,1.0,accra,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south east,2,1
+O00503,2025-06-17,2025-06-19,2025-06-20,s018,home & living,338.66,3.0,lagos,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,volta,1,1
+O00504,2025-06-24,2025-06-28,2025-07-05,s033,fashion,235.58,4.0,kano,2.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,greater accra,7,1
+O00505,2025-06-20,2025-06-23,2025-06-23,s015,toys,403.15,3.0,lagos,1.0,No review,0.0,0,no complaint,express,north central,0,1
+O00506,2025-06-21,2025-06-21,2025-06-23,s041,health,459.86,3.0,lagos,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,greater accra,2,1
+O00507,2025-05-27,2025-05-27,2025-05-30,s036,electronics,414.76,3.0,lagos,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,south west,3,1
+O00508,2025-05-17,2025-05-19,2025-05-25,s022,health,314.46,1.0,kano,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,ashanti,6,1
+O00509,2025-06-11,2025-06-15,2025-06-18,s025,health,321.19,4.0,kumasi,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,north central,3,1
+O00510,2025-06-06,2025-06-09,2025-06-17,s037,health,16.08,4.0,kano,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south west,8,1
+O00511,2025-05-19,2025-05-21,2025-05-29,s025,toys,46.38,1.0,kano,1.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,north central,8,1
+O00512,2025-06-07,2025-06-11,2025-06-16,s045,health,427.61,1.0,kumasi,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,ashanti,5,1
+O00513,2025-05-25,2025-05-29,2025-05-29,s012,home & living,100.81,3.0,lagos,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,greater accra,0,1
+O00514,2025-04-28,2025-04-29,2025-05-03,s010,fashion,220.3,3.0,kumasi,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,ashanti,4,1
+O00515,2025-06-03,2025-06-07,2025-06-09,s032,fashion,41.18,4.0,kumasi,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,south west,2,1
+O00516,2025-04-24,2025-04-28,2025-05-06,s012,toys,371.41,1.0,accra,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south west,8,1
+O00517,2025-04-27,2025-04-27,2025-05-04,s012,toys,416.35,4.0,accra,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,south east,7,1
+O00518,2025-05-15,2025-05-18,2025-05-26,s049,groceries,220.91,4.0,kano,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,north central,8,1
+O00519,2025-04-22,2025-04-26,2025-04-28,s016,toys,90.76,2.0,accra,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,greater accra,2,1
+O00520,2025-06-17,2025-06-20,2025-06-26,s043,electronics,396.51,3.0,kumasi,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,greater accra,6,1
+O00521,2025-05-20,2025-05-23,2025-05-25,s035,groceries,61.07,2.0,lagos,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,north central,2,1
+O00522,2025-05-29,2025-05-31,2025-06-06,s046,groceries,475.76,2.0,kano,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,south west,6,1
+O00523,2025-06-23,2025-06-23,2025-06-24,s018,toys,141.79,2.0,kumasi,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,ashanti,1,1
+O00524,2025-06-22,2025-06-24,2025-07-01,s027,toys,241.52,2.0,accra,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,south east,7,1
+O00525,2025-05-20,2025-05-24,2025-05-24,s017,health,240.12,1.0,kano,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,ashanti,0,1
+O00526,2025-06-01,2025-06-05,2025-06-08,s002,health,240.17,4.0,lagos,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,volta,3,1
+O00527,2025-05-17,2025-05-17,2025-05-17,s011,health,263.12,2.0,accra,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,south east,0,1
+O00528,2025-06-09,2025-06-09,2025-06-18,s045,electronics,27.99,4.0,kumasi,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,south west,9,1
+O00529,2025-04-25,2025-04-26,2025-05-01,s006,toys,224.88,4.0,kumasi,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,volta,5,1
+O00530,2025-04-24,2025-04-24,2025-05-02,s009,health,204.54,1.0,kumasi,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south west,8,1
+O00531,2025-06-15,2025-06-15,2025-06-21,s030,electronics,270.48,3.0,accra,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south west,6,1
+O00532,2025-06-10,2025-06-12,2025-06-12,s044,fashion,354.11,3.0,kumasi,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,south west,0,1
+O00533,2025-06-03,2025-06-07,2025-06-11,s025,toys,367.63,4.0,lagos,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,volta,4,1
+O00534,2025-05-02,2025-05-06,2025-05-15,s021,groceries,340.56,1.0,kano,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south west,9,1
+O00535,2025-05-31,2025-05-31,2025-06-06,s026,groceries,412.39,4.0,kano,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,ashanti,6,1
+O00536,2025-04-25,2025-04-28,2025-04-29,s021,electronics,416.5,1.0,accra,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,volta,1,1
+O00537,2025-05-04,2025-05-07,2025-05-08,s021,electronics,335.99,1.0,kano,1.0,No review,0.458333333,0,no complaint,express,volta,1,1
+O00538,2025-05-21,2025-05-21,2025-05-30,s019,health,279.3,1.0,accra,3.0,No review,0.5,0,no complaint,pickup,north central,9,1
+O00539,2025-06-25,2025-06-29,2025-07-07,s019,electronics,377.43,2.0,lagos,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,greater accra,8,1
+O00540,2025-06-25,2025-06-26,2025-06-27,s036,groceries,445.14,1.0,kano,2.0,Low quality. Would not recommend at all.,0.0,1,late delivery,standard,volta,1,1
+O00541,2025-05-13,2025-05-16,2025-05-21,s035,electronics,85.62,3.0,lagos,2.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,south west,5,1
+O00542,2025-04-20,2025-04-21,2025-04-21,s013,electronics,42.56,4.0,kano,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,greater accra,0,1
+O00543,2025-06-24,2025-06-24,2025-06-30,s010,health,270.92,3.0,kumasi,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,north central,6,1
+O00544,2025-05-13,2025-05-13,2025-05-21,s036,toys,31.43,1.0,accra,4.0,No review,0.58,0,no complaint,standard,volta,8,1
+O00545,2025-05-06,2025-05-10,2025-05-15,s020,fashion,329.62,4.0,kano,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south east,5,1
+O00546,2025-05-08,2025-05-08,2025-05-12,s019,fashion,207.91,1.0,kumasi,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,north central,4,1
+O00547,2025-05-06,2025-05-07,2025-05-09,s050,health,299.24,4.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,ashanti,2,1
+O00548,2025-05-21,2025-05-23,2025-06-01,s013,home & living,293.84,1.0,kumasi,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,volta,9,1
+O00549,2025-05-02,2025-05-02,2025-05-09,s016,electronics,23.44,4.0,kumasi,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,ashanti,7,1
+O00550,2025-05-18,2025-05-21,2025-05-25,s041,electronics,91.76,1.0,lagos,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,south east,4,1
+O00551,2025-06-07,2025-06-09,2025-06-18,s002,electronics,179.48,4.0,kumasi,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south west,9,1
+O00552,2025-05-17,2025-05-19,2025-05-19,s035,home & living,322.08,3.0,kumasi,2.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,south west,0,1
+O00553,2025-05-06,2025-05-09,2025-05-16,s010,fashion,270.23,4.0,kano,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,volta,7,1
+O00554,2025-06-05,2025-06-05,2025-06-06,s018,electronics,232.46,4.0,kano,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,volta,1,1
+O00555,2025-05-30,2025-06-01,2025-06-04,s020,fashion,23.49,3.0,kumasi,1.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,volta,3,1
+O00556,2025-04-10,2025-04-11,2025-04-13,s018,home & living,463.56,3.0,accra,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,ashanti,2,1
+O00557,2025-04-28,2025-04-29,2025-05-03,s028,electronics,234.68,2.0,kano,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south west,4,1
+O00558,2025-06-17,2025-06-21,2025-06-23,s039,electronics,191.49,4.0,lagos,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,south east,2,1
+O00559,2025-06-10,2025-06-10,2025-06-10,s003,fashion,305.44,4.0,kumasi,1.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,ashanti,0,1
+O00560,2025-06-09,2025-06-13,2025-06-18,s008,toys,84.28,1.0,kumasi,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,greater accra,5,1
+O00561,2025-06-08,2025-06-12,2025-06-13,s046,home & living,85.53,1.0,accra,2.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,south west,1,1
+O00562,2025-04-15,2025-04-16,2025-04-17,s042,toys,420.89,3.0,kano,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,ashanti,1,1
+O00563,2025-05-06,2025-05-10,2025-05-14,s008,home & living,105.37,1.0,lagos,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,greater accra,4,1
+O00564,2025-05-10,2025-05-10,2025-05-17,s037,electronics,283.28,3.0,kumasi,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,volta,7,1
+O00565,2025-06-23,2025-06-25,2025-06-28,s039,fashion,83.76,2.0,lagos,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,volta,3,1
+O00566,2025-04-13,2025-04-14,2025-04-21,s010,home & living,496.99,4.0,lagos,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,ashanti,7,1
+O00567,2025-06-15,2025-06-19,2025-06-25,s022,toys,398.34,3.0,kano,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,volta,6,1
+O00568,2025-05-31,2025-06-04,2025-06-07,s046,groceries,29.34,1.0,kano,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south east,3,1
+O00569,2025-04-10,2025-04-14,2025-04-15,s040,groceries,74.86,3.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,north central,1,1
+O00570,2025-04-10,2025-04-14,2025-04-19,s019,health,271.36,4.0,lagos,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,ashanti,5,1
+O00571,2025-05-27,2025-05-30,2025-06-07,s049,health,71.16,1.0,lagos,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,north central,8,1
+O00572,2025-05-08,2025-05-10,2025-05-12,s038,toys,472.58,1.0,lagos,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,ashanti,2,1
+O00573,2025-05-20,2025-05-21,2025-05-24,s030,groceries,55.9,4.0,kano,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,ashanti,3,1
+O00574,2025-05-17,2025-05-19,2025-05-27,s042,fashion,109.58,4.0,accra,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,greater accra,8,1
+O00575,2025-06-19,2025-06-21,2025-06-22,s006,electronics,365.6,1.0,accra,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south east,1,1
+O00576,2025-06-07,2025-06-10,2025-06-16,s030,fashion,305.04,3.0,kano,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south east,6,1
+O00577,2025-05-24,2025-05-27,2025-05-27,s011,fashion,108.23,1.0,accra,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,north central,0,1
+O00578,2025-05-01,2025-05-03,2025-05-08,s002,health,156.23,4.0,kumasi,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,north central,5,1
+O00579,2025-04-08,2025-04-12,2025-04-18,s015,electronics,25.09,3.0,kumasi,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south east,6,1
+O00580,2025-05-18,2025-05-20,2025-05-25,s049,fashion,346.98,3.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,volta,5,1
+O00581,2025-05-04,2025-05-07,2025-05-08,s048,health,319.95,1.0,accra,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,north central,1,1
+O00582,2025-05-18,2025-05-18,2025-05-20,s004,home & living,369.2,2.0,kumasi,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,volta,2,1
+O00583,2025-05-17,2025-05-19,2025-05-19,s022,health,341.64,1.0,kano,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,greater accra,0,1
+O00584,2025-04-30,2025-05-04,2025-05-11,s050,fashion,320.12,3.0,accra,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,volta,7,1
+O00585,2025-04-14,2025-04-14,2025-04-17,s038,toys,412.74,1.0,accra,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,ashanti,3,1
+O00586,2025-06-03,2025-06-03,2025-06-04,s038,fashion,61.16,3.0,accra,1.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,north central,1,1
+O00587,2025-05-11,2025-05-13,2025-05-15,s047,groceries,209.48,2.0,accra,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,volta,2,1
+O00588,2025-06-14,2025-06-18,2025-06-19,s030,electronics,319.72,1.0,lagos,1.0,No review,-0.7,1,fake product,pickup,north central,1,1
+O00589,2025-04-13,2025-04-13,2025-04-19,s021,fashion,435.78,2.0,kumasi,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,north central,6,1
+O00590,2025-06-19,2025-06-22,2025-06-23,s035,groceries,128.69,2.0,kano,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,greater accra,1,1
+O00591,2025-05-28,2025-05-29,2025-06-04,s047,fashion,154.69,4.0,kano,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,ashanti,6,1
+O00592,2025-04-16,2025-04-18,2025-04-23,s002,electronics,153.33,4.0,kumasi,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,south east,5,1
+O00593,2025-06-08,2025-06-08,2025-06-16,s027,toys,243.45,1.0,lagos,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,volta,8,1
+O00594,2025-04-27,2025-05-01,2025-05-03,s049,groceries,26.5,3.0,kumasi,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,north central,2,1
+O00595,2025-05-09,2025-05-10,2025-05-19,s050,toys,70.23,1.0,kumasi,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,greater accra,9,1
+O00596,2025-06-18,2025-06-19,2025-06-20,s014,groceries,281.78,4.0,kano,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,south west,1,1
+O00597,2025-06-18,2025-06-21,2025-06-27,s042,toys,413.04,4.0,kumasi,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,north central,6,1
+O00598,2025-04-30,2025-05-01,2025-05-02,s003,fashion,266.32,3.0,lagos,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,south west,1,1
+O00599,2025-04-19,2025-04-22,2025-04-22,s020,fashion,363.64,1.0,kano,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,ashanti,0,1
+O00600,2025-04-17,2025-04-21,2025-04-30,s027,toys,10.07,2.0,lagos,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,volta,9,1
+O00601,2025-04-30,2025-05-01,2025-05-08,s012,electronics,300.81,1.0,kumasi,1.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,greater accra,7,1
+O00602,2025-05-11,2025-05-14,2025-05-22,s041,home & living,373.04,1.0,lagos,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,greater accra,8,1
+O00603,2025-04-07,2025-04-08,2025-04-11,s021,fashion,142.49,3.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,ashanti,3,1
+O00604,2025-05-27,2025-05-29,2025-05-29,s029,toys,447.02,1.0,accra,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,north central,0,1
+O00605,2025-04-07,2025-04-11,2025-04-11,s042,electronics,468.8,3.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south east,0,1
+O00606,2025-05-18,2025-05-21,2025-05-29,s024,toys,251.97,1.0,kano,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,ashanti,8,1
+O00607,2025-04-29,2025-05-03,2025-05-07,s007,electronics,12.14,3.0,kumasi,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,south east,4,1
+O00608,2025-04-10,2025-04-13,2025-04-13,s004,health,99.58,4.0,lagos,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,ashanti,0,1
+O00609,2025-04-22,2025-04-26,2025-04-29,s031,toys,472.55,1.0,kumasi,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,volta,3,1
+O00610,2025-04-08,2025-04-08,2025-04-12,s006,groceries,325.63,2.0,accra,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,south west,4,1
+O00611,2025-04-14,2025-04-14,2025-04-16,s028,fashion,198.71,4.0,kumasi,4.0,No review,-0.166666667,0,no complaint,express,volta,2,1
+O00612,2025-05-04,2025-05-06,2025-05-14,s023,toys,112.35,2.0,accra,1.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,ashanti,8,1
+O00613,2025-04-21,2025-04-24,2025-04-25,s048,groceries,214.09,1.0,kumasi,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,1,1
+O00614,2025-06-16,2025-06-16,2025-06-19,s007,fashion,332.1,3.0,accra,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,greater accra,3,1
+O00615,2025-04-07,2025-04-07,2025-04-14,s045,groceries,307.8,3.0,accra,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,ashanti,7,1
+O00616,2025-05-19,2025-05-22,2025-05-27,s049,health,266.32,3.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,south east,5,1
+O00617,2025-05-19,2025-05-19,2025-05-22,s014,toys,203.61,4.0,kumasi,1.0,Fake product and horrible packaging.,-0.75,1,wrong color,pickup,greater accra,3,1
+O00618,2025-05-27,2025-05-28,2025-06-01,s044,fashion,336.76,1.0,kano,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,south east,4,1
+O00619,2025-04-16,2025-04-20,2025-04-24,s046,home & living,419.39,2.0,accra,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,ashanti,4,1
+O00620,2025-05-16,2025-05-19,2025-05-28,s001,groceries,420.75,1.0,lagos,1.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,south east,9,1
+O00621,2025-06-19,2025-06-22,2025-06-29,s049,toys,171.82,4.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,north central,7,1
+O00622,2025-05-13,2025-05-16,2025-05-25,s019,electronics,440.05,2.0,lagos,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,volta,9,1
+O00623,2025-06-15,2025-06-15,2025-06-22,s007,electronics,162.81,4.0,kano,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,south west,7,1
+O00624,2025-05-21,2025-05-23,2025-05-31,s008,groceries,291.92,2.0,kano,2.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,volta,8,1
+O00625,2025-06-14,2025-06-14,2025-06-14,s050,home & living,18.6,1.0,lagos,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,north central,0,1
+O00626,2025-04-12,2025-04-15,2025-04-19,s031,toys,119.4,1.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,volta,4,1
+O00627,2025-05-07,2025-05-09,2025-05-17,s037,groceries,487.36,3.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,8,1
+O00628,2025-06-19,2025-06-19,2025-06-26,s026,electronics,416.58,3.0,kumasi,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,volta,7,1
+O00629,2025-06-11,2025-06-13,2025-06-21,s014,groceries,266.32,4.0,kano,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,volta,8,1
+O00630,2025-05-23,2025-05-26,2025-06-01,s006,home & living,305.61,1.0,kano,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,south east,6,1
+O00631,2025-06-11,2025-06-11,2025-06-17,s025,fashion,295.28,4.0,kumasi,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,north central,6,1
+O00632,2025-06-15,2025-06-17,2025-06-22,s050,electronics,495.75,2.0,kano,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,south east,5,1
+O00633,2025-05-27,2025-05-28,2025-06-05,s006,groceries,120.44,3.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,volta,8,1
+O00634,2025-06-03,2025-06-05,2025-06-09,s021,groceries,392.85,1.0,lagos,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,volta,4,1
+O00635,2025-04-23,2025-04-26,2025-04-26,s048,fashion,454.15,3.0,accra,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,north central,0,1
+O00636,2025-04-27,2025-04-30,2025-05-08,s031,electronics,459.57,4.0,accra,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,greater accra,8,1
+O00637,2025-06-22,2025-06-23,2025-06-23,s042,health,356.78,2.0,kumasi,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,south east,0,1
+O00638,2025-05-08,2025-05-10,2025-05-17,s029,health,253.68,1.0,kano,2.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,north central,7,1
+O00639,2025-06-19,2025-06-23,2025-07-02,s029,fashion,269.53,3.0,kumasi,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,north central,9,1
+O00640,2025-05-17,2025-05-18,2025-05-27,s033,home & living,47.36,2.0,accra,2.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,north central,9,1
+O00641,2025-04-15,2025-04-19,2025-04-26,s049,toys,284.83,2.0,kano,3.0,No review,1.0,0,no complaint,pickup,south west,7,1
+O00642,2025-05-30,2025-05-30,2025-05-31,s043,home & living,34.49,1.0,lagos,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,ashanti,1,1
+O00643,2025-06-15,2025-06-15,2025-06-18,s003,electronics,128.57,2.0,kumasi,5.0,No review,0.420833333,0,no complaint,standard,south east,3,1
+O00644,2025-05-29,2025-05-31,2025-06-09,s049,fashion,497.46,4.0,accra,4.0,No review,0.0,0,no complaint,express,south east,9,1
+O00645,2025-06-01,2025-06-01,2025-06-02,s041,health,266.32,1.0,kano,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,greater accra,1,1
+O00646,2025-05-15,2025-05-16,2025-05-25,s016,groceries,45.81,2.0,accra,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,south west,9,1
+O00647,2025-05-03,2025-05-04,2025-05-04,s017,toys,368.74,1.0,accra,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,south west,0,1
+O00648,2025-05-02,2025-05-03,2025-05-09,s007,fashion,265.52,2.0,lagos,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south west,6,1
+O00649,2025-06-19,2025-06-22,2025-06-22,s023,groceries,428.57,2.0,kano,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,greater accra,0,1
+O00650,2025-05-08,2025-05-09,2025-05-14,s009,fashion,392.86,4.0,lagos,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,volta,5,1
+O00651,2025-05-29,2025-05-30,2025-06-02,s023,toys,305.5,1.0,kumasi,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,volta,3,1
+O00652,2025-06-07,2025-06-09,2025-06-13,s010,toys,463.84,2.0,kumasi,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,north central,4,1
+O00653,2025-06-15,2025-06-17,2025-06-22,s024,fashion,167.62,2.0,accra,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,north central,5,1
+O00654,2025-05-10,2025-05-13,2025-05-22,s001,home & living,24.29,3.0,kumasi,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,volta,9,1
+O00655,2025-05-23,2025-05-25,2025-05-26,s045,fashion,85.37,3.0,accra,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,volta,1,1
+O00656,2025-05-19,2025-05-19,2025-05-21,s014,fashion,32.01,1.0,accra,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,greater accra,2,1
+O00657,2025-04-25,2025-04-27,2025-04-27,s022,health,379.59,3.0,lagos,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,south west,0,1
+O00658,2025-05-21,2025-05-22,2025-05-25,s045,fashion,145.02,1.0,lagos,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,greater accra,3,1
+O00659,2025-06-15,2025-06-18,2025-06-18,s024,groceries,266.32,2.0,kano,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,greater accra,0,1
+O00660,2025-04-09,2025-04-12,2025-04-15,s046,home & living,103.88,1.0,kano,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,greater accra,3,1
+O00661,2025-06-22,2025-06-23,2025-06-23,s049,groceries,378.37,3.0,kano,2.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,0,1
+O00662,2025-05-25,2025-05-28,2025-06-01,s047,electronics,148.41,1.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,4,1
+O00663,2025-04-19,2025-04-21,2025-04-30,s033,fashion,286.03,1.0,kano,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,north central,9,1
+O00664,2025-06-03,2025-06-04,2025-06-11,s045,electronics,80.47,3.0,lagos,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,greater accra,7,1
+O00665,2025-05-28,2025-05-29,2025-06-01,s013,fashion,383.92,3.0,kano,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,volta,3,1
+O00666,2025-06-02,2025-06-02,2025-06-04,s034,toys,110.29,1.0,kano,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,ashanti,2,1
+O00667,2025-04-20,2025-04-20,2025-04-23,s043,health,26.08,2.0,kano,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,volta,3,1
+O00668,2025-04-07,2025-04-09,2025-04-16,s002,groceries,440.95,1.0,kano,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,south west,7,1
+O00669,2025-04-09,2025-04-10,2025-04-17,s037,fashion,33.34,4.0,lagos,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,ashanti,7,1
+O00670,2025-06-13,2025-06-13,2025-06-13,s012,health,266.32,2.0,lagos,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,ashanti,0,1
+O00671,2025-05-02,2025-05-06,2025-05-10,s044,health,148.41,3.0,lagos,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,north central,4,1
+O00672,2025-04-25,2025-04-25,2025-05-03,s017,home & living,277.88,1.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south west,8,1
+O00673,2025-05-27,2025-05-31,2025-06-03,s016,home & living,364.33,4.0,kumasi,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,volta,3,1
+O00674,2025-05-02,2025-05-05,2025-05-10,s009,home & living,10.72,3.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,south west,5,1
+O00675,2025-04-11,2025-04-15,2025-04-21,s024,toys,323.91,1.0,kano,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,south east,6,1
+O00676,2025-04-30,2025-04-30,2025-05-02,s019,home & living,449.06,1.0,kano,2.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,volta,2,1
+O00677,2025-06-10,2025-06-13,2025-06-19,s012,fashion,451.95,2.0,accra,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south east,6,1
+O00678,2025-06-08,2025-06-12,2025-06-19,s020,groceries,383.62,2.0,kumasi,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,greater accra,7,1
+O00679,2025-05-16,2025-05-17,2025-05-26,s006,toys,48.44,3.0,lagos,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,greater accra,9,1
+O00680,2025-06-19,2025-06-21,2025-06-30,s013,health,263.62,1.0,accra,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,south west,9,1
+O00681,2025-05-31,2025-06-03,2025-06-11,s003,toys,187.24,4.0,lagos,2.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,north central,8,1
+O00682,2025-05-17,2025-05-17,2025-05-19,s018,health,392.56,3.0,kumasi,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,2,1
+O00683,2025-05-12,2025-05-13,2025-05-20,s039,electronics,467.13,4.0,lagos,2.0,Packaging could be better but the item works fine.,0.458333333,1,wrong color,pickup,volta,7,1
+O00684,2025-04-15,2025-04-16,2025-04-22,s017,toys,403.72,3.0,accra,5.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,ashanti,6,1
+O00685,2025-04-24,2025-04-26,2025-05-04,s005,groceries,178.86,2.0,accra,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,greater accra,8,1
+O00686,2025-04-25,2025-04-29,2025-05-01,s028,groceries,174.45,4.0,accra,2.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,south west,2,1
+O00687,2025-04-09,2025-04-09,2025-04-09,s050,health,338.82,1.0,kano,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,south west,0,1
+O00688,2025-04-08,2025-04-11,2025-04-12,s010,groceries,89.89,4.0,lagos,1.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,ashanti,1,1
+O00689,2025-06-08,2025-06-09,2025-06-09,s037,groceries,70.95,2.0,accra,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,greater accra,0,1
+O00690,2025-05-30,2025-06-01,2025-06-03,s016,health,224.45,4.0,kumasi,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,south east,2,1
+O00691,2025-05-18,2025-05-20,2025-05-24,s007,home & living,271.8,4.0,accra,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,north central,4,1
+O00692,2025-06-01,2025-06-05,2025-06-07,s002,electronics,362.04,2.0,lagos,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,greater accra,2,1
+O00693,2025-06-16,2025-06-17,2025-06-25,s022,groceries,121.1,3.0,kumasi,2.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,south west,8,1
+O00694,2025-05-26,2025-05-28,2025-06-05,s028,home & living,152.12,4.0,kumasi,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,south east,8,1
+O00695,2025-06-10,2025-06-12,2025-06-13,s001,electronics,132.73,4.0,accra,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,ashanti,1,1
+O00696,2025-05-17,2025-05-20,2025-05-27,s027,groceries,453.98,2.0,accra,1.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south east,7,1
+O00697,2025-04-26,2025-04-30,2025-04-30,s008,toys,150.94,3.0,kumasi,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,ashanti,0,1
+O00698,2025-04-11,2025-04-15,2025-04-20,s048,electronics,220.96,3.0,accra,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,south west,5,1
+O00699,2025-06-09,2025-06-09,2025-06-11,s033,home & living,184.37,2.0,accra,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,north central,2,1
+O00700,2025-05-19,2025-05-22,2025-05-22,s017,health,45.33,2.0,lagos,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,greater accra,0,1
+O00701,2025-05-18,2025-05-20,2025-05-25,s009,home & living,339.02,3.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,south west,5,1
+O00702,2025-04-29,2025-04-30,2025-05-09,s019,groceries,495.28,4.0,kumasi,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,greater accra,9,1
+O00703,2025-05-11,2025-05-15,2025-05-24,s031,toys,15.63,2.0,kumasi,2.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,north central,9,1
+O00704,2025-05-03,2025-05-03,2025-05-07,s022,fashion,65.52,2.0,accra,2.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,greater accra,4,1
+O00705,2025-06-23,2025-06-26,2025-07-02,s032,toys,110.18,1.0,kumasi,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,south east,6,1
+O00706,2025-05-10,2025-05-12,2025-05-13,s018,home & living,110.61,1.0,kano,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,greater accra,1,1
+O00707,2025-04-30,2025-05-01,2025-05-07,s021,toys,331.81,2.0,lagos,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,1,broken item,pickup,volta,6,1
+O00708,2025-05-24,2025-05-24,2025-05-29,s011,fashion,476.2,3.0,lagos,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,south west,5,1
+O00709,2025-05-26,2025-05-27,2025-05-31,s030,groceries,234.43,3.0,lagos,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,ashanti,4,1
+O00710,2025-04-10,2025-04-10,2025-04-10,s033,home & living,132.94,2.0,kumasi,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,0,1
+O00711,2025-06-19,2025-06-22,2025-06-23,s047,health,295.94,3.0,kano,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,volta,1,1
+O00712,2025-06-23,2025-06-23,2025-07-02,s041,groceries,473.9,2.0,accra,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,north central,9,1
+O00713,2025-06-14,2025-06-18,2025-06-25,s021,fashion,114.41,3.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,volta,7,1
+O00714,2025-04-08,2025-04-12,2025-04-12,s043,groceries,353.56,1.0,kumasi,1.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,greater accra,0,1
+O00715,2025-04-22,2025-04-24,2025-04-24,s037,health,134.02,4.0,kano,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,north central,0,1
+O00716,2025-06-24,2025-06-25,2025-06-30,s038,electronics,365.61,2.0,kumasi,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,south west,5,1
+O00717,2025-05-25,2025-05-27,2025-06-01,s006,health,59.93,2.0,kumasi,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,north central,5,1
+O00718,2025-06-15,2025-06-15,2025-06-18,s049,fashion,446.13,1.0,kano,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,greater accra,3,1
+O00719,2025-05-19,2025-05-21,2025-05-28,s010,health,364.49,2.0,accra,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,north central,7,1
+O00720,2025-06-11,2025-06-12,2025-06-13,s007,toys,277.97,1.0,accra,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,south east,1,1
+O00721,2025-05-02,2025-05-06,2025-05-12,s006,electronics,54.78,3.0,kumasi,1.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south east,6,1
+O00722,2025-05-25,2025-05-25,2025-05-29,s028,groceries,24.46,1.0,accra,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,south east,4,1
+O00723,2025-05-27,2025-05-29,2025-06-07,s042,electronics,183.88,2.0,kano,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,ashanti,9,1
+O00724,2025-06-11,2025-06-12,2025-06-13,s032,electronics,301.45,2.0,accra,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,volta,1,1
+O00725,2025-05-29,2025-06-02,2025-06-09,s031,health,413.26,3.0,accra,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,south west,7,1
+O00726,2025-06-02,2025-06-04,2025-06-11,s006,electronics,312.22,1.0,kano,1.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,north central,7,1
+O00727,2025-06-08,2025-06-10,2025-06-18,s005,fashion,461.18,2.0,lagos,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south east,8,1
+O00728,2025-05-20,2025-05-24,2025-06-01,s035,health,433.94,1.0,lagos,1.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,south east,8,1
+O00729,2025-05-06,2025-05-08,2025-05-13,s020,home & living,211.56,2.0,accra,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,volta,5,1
+O00730,2025-05-14,2025-05-16,2025-05-20,s034,groceries,226.85,4.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,ashanti,4,1
+O00731,2025-04-24,2025-04-26,2025-05-05,s023,groceries,215.5,3.0,kano,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,greater accra,9,1
+O00732,2025-05-04,2025-05-06,2025-05-11,s048,health,256.29,1.0,lagos,1.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south west,5,1
+O00733,2025-05-23,2025-05-24,2025-06-01,s010,health,147.71,3.0,accra,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,south east,8,1
+O00734,2025-04-09,2025-04-13,2025-04-17,s046,electronics,88.15,3.0,lagos,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,south east,4,1
+O00735,2025-04-27,2025-04-29,2025-05-02,s034,home & living,471.84,3.0,kumasi,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,north central,3,1
+O00736,2025-04-08,2025-04-11,2025-04-18,s034,electronics,404.86,3.0,lagos,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,ashanti,7,1
+O00737,2025-06-16,2025-06-17,2025-06-20,s035,electronics,134.89,1.0,kano,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,north central,3,1
+O00738,2025-04-08,2025-04-12,2025-04-15,s041,toys,415.78,2.0,accra,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,north central,3,1
+O00739,2025-05-14,2025-05-14,2025-05-14,s049,health,193.02,2.0,kano,2.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south east,0,1
+O00740,2025-06-10,2025-06-10,2025-06-15,s005,electronics,281.15,3.0,kumasi,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south east,5,1
+O00741,2025-04-24,2025-04-26,2025-05-04,s030,groceries,443.34,4.0,accra,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south east,8,1
+O00742,2025-05-02,2025-05-06,2025-05-09,s016,home & living,235.0,3.0,accra,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,volta,3,1
+O00743,2025-05-24,2025-05-28,2025-05-29,s034,toys,67.6,1.0,lagos,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,volta,1,1
+O00744,2025-05-13,2025-05-13,2025-05-13,s018,toys,396.82,2.0,accra,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,ashanti,0,1
+O00745,2025-05-21,2025-05-22,2025-05-31,s005,electronics,368.88,3.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,9,1
+O00746,2025-06-19,2025-06-19,2025-06-28,s005,health,295.25,2.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,ashanti,9,1
+O00747,2025-04-27,2025-04-29,2025-05-04,s012,groceries,130.22,3.0,kumasi,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,south west,5,1
+O00748,2025-04-12,2025-04-14,2025-04-22,s042,fashion,480.33,4.0,accra,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,south west,8,1
+O00749,2025-06-22,2025-06-24,2025-07-03,s011,toys,220.18,3.0,kano,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,north central,9,1
+O00750,2025-05-20,2025-05-21,2025-05-22,s024,home & living,379.26,1.0,kano,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,1,1
+O00751,2025-04-15,2025-04-19,2025-04-19,s005,toys,436.56,2.0,lagos,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,volta,0,1
+O00752,2025-05-05,2025-05-06,2025-05-06,s001,health,467.23,3.0,lagos,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,north central,0,1
+O00753,2025-04-28,2025-04-30,2025-05-06,s009,health,202.01,1.0,accra,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,greater accra,6,1
+O00754,2025-05-04,2025-05-04,2025-05-04,s040,home & living,476.21,1.0,kano,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,south east,0,1
+O00755,2025-05-10,2025-05-14,2025-05-18,s014,health,339.89,3.0,lagos,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,south west,4,1
+O00756,2025-04-19,2025-04-19,2025-04-24,s002,toys,360.17,4.0,kumasi,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south west,5,1
+O00757,2025-06-09,2025-06-13,2025-06-21,s010,home & living,272.47,1.0,kano,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,ashanti,8,1
+O00758,2025-06-07,2025-06-09,2025-06-14,s030,electronics,109.68,4.0,lagos,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,greater accra,5,1
+O00759,2025-04-13,2025-04-15,2025-04-16,s032,toys,231.13,3.0,accra,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,north central,1,1
+O00760,2025-05-10,2025-05-14,2025-05-22,s021,home & living,247.33,3.0,kano,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,south east,8,1
+O00761,2025-06-12,2025-06-13,2025-06-20,s024,toys,266.32,4.0,lagos,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,north central,7,1
+O00762,2025-04-11,2025-04-14,2025-04-17,s034,groceries,266.32,1.0,kano,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,volta,3,1
+O00763,2025-05-27,2025-05-31,2025-06-05,s026,electronics,266.32,2.0,accra,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,ashanti,5,1
+O00764,2025-06-15,2025-06-16,2025-06-18,s030,home & living,498.62,3.0,kano,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south east,2,1
+O00765,2025-05-09,2025-05-11,2025-05-17,s024,toys,181.76,4.0,kano,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,north central,6,1
+O00766,2025-06-12,2025-06-14,2025-06-23,s002,toys,237.48,4.0,kano,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,greater accra,9,1
+O00767,2025-06-04,2025-06-06,2025-06-07,s002,electronics,465.35,2.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,ashanti,1,1
+O00768,2025-05-23,2025-05-26,2025-05-27,s012,electronics,247.15,4.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,volta,1,1
+O00769,2025-05-21,2025-05-24,2025-05-31,s005,home & living,278.73,1.0,kano,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,ashanti,7,1
+O00770,2025-04-29,2025-05-03,2025-05-09,s005,groceries,278.54,4.0,accra,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,south east,6,1
+O00771,2025-06-08,2025-06-12,2025-06-14,s045,groceries,381.67,3.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,south west,2,1
+O00772,2025-04-16,2025-04-19,2025-04-27,s040,groceries,373.7,3.0,lagos,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,volta,8,1
+O00773,2025-04-07,2025-04-07,2025-04-13,s044,groceries,201.47,2.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,greater accra,6,1
+O00774,2025-06-25,2025-06-28,2025-07-07,s049,toys,222.25,2.0,kano,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,volta,9,1
+O00775,2025-05-13,2025-05-16,2025-05-25,s005,health,319.87,2.0,kano,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,volta,9,1
+O00776,2025-05-26,2025-05-28,2025-06-05,s017,health,359.26,4.0,lagos,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,greater accra,8,1
+O00777,2025-04-22,2025-04-25,2025-05-04,s041,health,115.31,2.0,kumasi,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,greater accra,9,1
+O00778,2025-05-19,2025-05-20,2025-05-21,s034,health,102.08,1.0,kano,2.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,volta,1,1
+O00779,2025-04-10,2025-04-10,2025-04-15,s023,groceries,230.88,2.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,north central,5,1
+O00780,2025-05-22,2025-05-26,2025-05-26,s022,electronics,322.01,3.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,north central,0,1
+O00781,2025-06-14,2025-06-15,2025-06-18,s035,groceries,414.7,1.0,accra,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,volta,3,1
+O00782,2025-04-07,2025-04-10,2025-04-16,s032,electronics,40.94,1.0,accra,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,greater accra,6,1
+O00783,2025-06-19,2025-06-23,2025-06-26,s029,home & living,395.49,2.0,kumasi,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,south west,3,1
+O00784,2025-05-14,2025-05-18,2025-05-23,s019,toys,221.85,1.0,accra,1.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,north central,5,1
+O00785,2025-06-17,2025-06-20,2025-06-27,s012,home & living,129.26,1.0,kumasi,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,express,volta,7,1
+O00786,2025-05-15,2025-05-17,2025-05-24,s030,health,394.05,1.0,kano,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,north central,7,1
+O00787,2025-05-25,2025-05-29,2025-06-03,s012,fashion,451.47,4.0,accra,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,south east,5,1
+O00788,2025-04-23,2025-04-25,2025-04-28,s014,fashion,408.23,1.0,kumasi,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south east,3,1
+O00789,2025-06-13,2025-06-17,2025-06-26,s023,home & living,467.45,3.0,kano,1.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south east,9,1
+O00790,2025-06-02,2025-06-06,2025-06-06,s029,health,289.87,4.0,kumasi,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,volta,0,1
+O00791,2025-04-18,2025-04-20,2025-04-25,s025,groceries,446.94,1.0,kano,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,south east,5,1
+O00792,2025-04-18,2025-04-22,2025-04-24,s048,electronics,163.26,4.0,kano,1.0,Very disappointed. Not what was shown online.,-0.975,1,broken item,standard,volta,2,1
+O00793,2025-04-19,2025-04-22,2025-04-28,s007,home & living,459.14,1.0,lagos,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,volta,6,1
+O00794,2025-06-15,2025-06-17,2025-06-21,s023,toys,313.57,3.0,kano,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south west,4,1
+O00795,2025-05-10,2025-05-13,2025-05-15,s048,health,297.6,1.0,lagos,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south east,2,1
+O00796,2025-06-15,2025-06-15,2025-06-18,s043,home & living,356.62,3.0,lagos,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,greater accra,3,1
+O00797,2025-06-15,2025-06-16,2025-06-22,s021,fashion,435.52,3.0,accra,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,ashanti,6,1
+O00798,2025-05-03,2025-05-05,2025-05-09,s049,groceries,320.21,1.0,accra,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,north central,4,1
+O00799,2025-04-11,2025-04-12,2025-04-15,s007,home & living,328.26,1.0,kumasi,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,south west,3,1
+O00800,2025-05-09,2025-05-11,2025-05-12,s049,electronics,256.96,4.0,lagos,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,south west,1,1
+O00801,2025-04-21,2025-04-23,2025-04-27,s030,home & living,433.18,4.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,ashanti,4,1
+O00802,2025-05-06,2025-05-06,2025-05-14,s021,groceries,36.65,3.0,kano,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,south east,8,1
+O00803,2025-05-07,2025-05-10,2025-05-10,s040,fashion,376.42,3.0,kumasi,2.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,volta,0,1
+O00804,2025-05-04,2025-05-04,2025-05-05,s035,groceries,233.03,3.0,accra,1.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,ashanti,1,1
+O00805,2025-05-14,2025-05-17,2025-05-24,s036,toys,308.75,3.0,kano,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,south west,7,1
+O00806,2025-05-13,2025-05-16,2025-05-23,s036,toys,480.85,3.0,lagos,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,ashanti,7,1
+O00807,2025-05-01,2025-05-05,2025-05-05,s020,fashion,441.99,2.0,kano,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south west,0,1
+O00808,2025-04-13,2025-04-15,2025-04-22,s028,toys,461.44,2.0,lagos,1.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,greater accra,7,1
+O00809,2025-05-25,2025-05-26,2025-05-26,s031,toys,354.29,1.0,lagos,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,south west,0,1
+O00810,2025-04-26,2025-04-28,2025-05-04,s030,toys,441.68,4.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south west,6,1
+O00811,2025-06-09,2025-06-11,2025-06-15,s027,fashion,488.33,4.0,lagos,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,south east,4,1
+O00812,2025-05-13,2025-05-15,2025-05-17,s026,groceries,443.45,1.0,kano,1.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,south west,2,1
+O00813,2025-05-23,2025-05-23,2025-05-30,s048,health,315.09,3.0,lagos,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,greater accra,7,1
+O00814,2025-04-23,2025-04-26,2025-05-02,s010,fashion,390.2,2.0,lagos,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,north central,6,1
+O00815,2025-04-07,2025-04-08,2025-04-10,s044,home & living,204.02,1.0,accra,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,volta,2,1
+O00816,2025-06-18,2025-06-21,2025-06-30,s021,groceries,396.81,3.0,kano,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,south east,9,1
+O00817,2025-04-10,2025-04-11,2025-04-14,s005,health,239.86,2.0,lagos,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,north central,3,1
+O00818,2025-06-04,2025-06-04,2025-06-11,s025,electronics,269.64,1.0,kano,2.0,"Absolutely love this product, great value for money.",0.65,1,wrong color,express,south west,7,1
+O00819,2025-06-21,2025-06-25,2025-07-02,s033,health,86.23,3.0,lagos,2.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,ashanti,7,1
+O00820,2025-04-20,2025-04-24,2025-04-27,s047,groceries,184.11,1.0,lagos,3.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,south east,3,1
+O00821,2025-05-30,2025-05-31,2025-06-05,s017,fashion,406.42,3.0,kano,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,greater accra,5,1
+O00822,2025-05-13,2025-05-14,2025-05-20,s041,home & living,85.91,3.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,north central,6,1
+O00823,2025-06-08,2025-06-12,2025-06-17,s033,health,312.44,2.0,accra,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,volta,5,1
+O00824,2025-05-26,2025-05-28,2025-06-03,s020,electronics,158.78,4.0,kumasi,1.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,greater accra,6,1
+O00825,2025-06-17,2025-06-18,2025-06-22,s014,electronics,160.17,1.0,accra,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,volta,4,1
+O00826,2025-04-23,2025-04-23,2025-04-24,s028,health,234.63,1.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,north central,1,1
+O00827,2025-04-20,2025-04-21,2025-04-27,s014,fashion,390.75,3.0,lagos,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south west,6,1
+O00828,2025-05-09,2025-05-12,2025-05-21,s048,home & living,494.83,1.0,accra,2.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,volta,9,1
+O00829,2025-05-17,2025-05-20,2025-05-25,s012,fashion,373.4,3.0,lagos,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,south east,5,1
+O00830,2025-06-21,2025-06-22,2025-06-28,s022,fashion,187.09,3.0,lagos,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,volta,6,1
+O00831,2025-06-08,2025-06-12,2025-06-12,s013,health,213.91,4.0,lagos,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,north central,0,1
+O00832,2025-06-17,2025-06-17,2025-06-26,s003,toys,259.97,1.0,kano,5.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,south west,9,1
+O00833,2025-05-09,2025-05-09,2025-05-14,s025,toys,207.36,4.0,lagos,2.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,north central,5,1
+O00834,2025-06-22,2025-06-25,2025-06-27,s035,groceries,91.0,3.0,lagos,2.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,greater accra,2,1
+O00835,2025-05-07,2025-05-07,2025-05-12,s005,fashion,150.0,1.0,accra,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,volta,5,1
+O00836,2025-05-26,2025-05-28,2025-05-28,s048,fashion,400.89,3.0,lagos,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,ashanti,0,1
+O00837,2025-06-02,2025-06-05,2025-06-13,s045,toys,290.88,1.0,kumasi,1.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,ashanti,8,1
+O00838,2025-04-25,2025-04-28,2025-05-07,s011,electronics,264.84,4.0,kano,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,volta,9,1
+O00839,2025-04-13,2025-04-13,2025-04-18,s029,fashion,317.39,1.0,kumasi,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,ashanti,5,1
+O00840,2025-04-25,2025-04-25,2025-05-02,s041,groceries,266.32,1.0,kano,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,greater accra,7,1
+O00841,2025-04-22,2025-04-24,2025-05-03,s033,toys,266.32,1.0,kano,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,north central,9,1
+O00842,2025-06-12,2025-06-12,2025-06-20,s036,groceries,266.32,1.0,kano,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,south east,8,1
+O00843,2025-05-21,2025-05-22,2025-05-22,s003,electronics,311.47,2.0,accra,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,ashanti,0,1
+O00844,2025-06-09,2025-06-13,2025-06-14,s025,toys,468.23,2.0,lagos,2.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,1,broken item,express,south east,1,1
+O00845,2025-06-05,2025-06-05,2025-06-12,s015,electronics,110.18,3.0,lagos,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,south west,7,1
+O00846,2025-04-10,2025-04-11,2025-04-15,s005,toys,338.32,4.0,kano,1.0,Fake product and horrible packaging.,-0.75,1,no complaint,pickup,south east,4,1
+O00847,2025-05-14,2025-05-14,2025-05-19,s028,electronics,280.07,4.0,kano,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,south east,5,1
+O00848,2025-05-03,2025-05-04,2025-05-12,s042,electronics,400.04,3.0,lagos,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,ashanti,8,1
+O00849,2025-06-14,2025-06-14,2025-06-22,s006,electronics,238.18,1.0,accra,2.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south east,8,1
+O00850,2025-06-15,2025-06-16,2025-06-18,s044,groceries,350.86,3.0,accra,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,ashanti,2,1
+O00851,2025-06-01,2025-06-01,2025-06-10,s038,fashion,71.49,1.0,accra,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,south east,9,1
+O00852,2025-05-19,2025-05-20,2025-05-25,s046,groceries,287.23,3.0,accra,1.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,south west,5,1
+O00853,2025-06-06,2025-06-06,2025-06-08,s018,home & living,267.12,1.0,kumasi,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,south east,2,1
+O00854,2025-05-09,2025-05-11,2025-05-12,s027,home & living,153.33,1.0,accra,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south east,1,1
+O00855,2025-05-26,2025-05-28,2025-05-28,s040,groceries,467.27,4.0,accra,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,greater accra,0,1
+O00856,2025-04-28,2025-04-29,2025-05-04,s012,toys,104.23,4.0,lagos,5.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,north central,5,1
+O00857,2025-06-23,2025-06-24,2025-06-24,s026,health,443.58,4.0,lagos,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,south east,0,1
+O00858,2025-04-17,2025-04-18,2025-04-18,s021,health,482.05,4.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,north central,0,1
+O00859,2025-05-11,2025-05-13,2025-05-22,s037,groceries,315.12,2.0,accra,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,ashanti,9,1
+O00860,2025-05-14,2025-05-16,2025-05-16,s044,health,79.71,4.0,accra,1.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,south east,0,1
+O00861,2025-06-17,2025-06-18,2025-06-21,s014,health,275.09,4.0,kumasi,2.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,north central,3,1
+O00862,2025-04-20,2025-04-23,2025-04-30,s024,toy,127.59,4.0,kano,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,south west,7,1
+O00863,2025-05-19,2025-05-20,2025-05-22,s018,living & home,229.9,3.0,kano,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,south west,2,1
+O00864,2025-04-20,2025-04-20,2025-04-29,s026,fashon,266.32,2.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,south east,9,1
+O00865,2025-06-02,2025-06-04,2025-06-11,s050,health,266.32,3.0,accra,5.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south east,7,1
+O00866,2025-05-04,2025-05-04,2025-05-06,s020,groceries,266.32,4.0,lagos,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,greater accra,2,1
+O00867,2025-05-23,2025-05-24,2025-05-30,s032,health,335.13,2.0,kumasi,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,ashanti,6,1
+O00868,2025-04-17,2025-04-20,2025-04-26,s009,fashion,448.83,3.0,lagos,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,volta,6,1
+O00869,2025-06-02,2025-06-02,2025-06-03,s039,fashion,62.46,2.0,lagos,2.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,ashanti,1,1
+O00870,2025-06-25,2025-06-28,2025-07-03,s011,groceries,220.68,1.0,kano,2.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,5,1
+O00871,2025-06-09,2025-06-10,2025-06-19,s003,toy,67.29,1.0,kumasi,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,south east,9,1
+O00872,2025-05-08,2025-05-08,2025-05-17,s027,living & home,319.8,4.0,kano,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,greater accra,9,1
+O00873,2025-06-04,2025-06-07,2025-06-13,s044,fashon,452.18,4.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,north central,6,1
+O00874,2025-06-01,2025-06-03,2025-06-08,s028,groceries,466.46,4.0,kumasi,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,south west,5,1
+O00875,2025-06-18,2025-06-19,2025-06-28,s007,electronics,352.85,4.0,lagos,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,south east,9,1
+O00876,2025-05-29,2025-05-31,2025-06-04,s016,health,15.3,3.0,kumasi,1.0,Very disappointed. Not what was shown online.,-0.975,1,late delivery,pickup,south east,4,1
+O00877,2025-05-15,2025-05-19,2025-05-24,s016,home & living,187.16,3.0,accra,3.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,north central,5,1
+O00878,2025-06-20,2025-06-21,2025-06-21,s006,toys,42.94,4.0,lagos,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,greater accra,0,1
+O00879,2025-04-14,2025-04-17,2025-04-23,s012,toys,312.3,3.0,kano,2.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south west,6,1
+O00880,2025-05-29,2025-06-02,2025-06-07,s037,fashion,155.22,1.0,accra,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,volta,5,1
+O00881,2025-05-05,2025-05-06,2025-05-10,s022,health,398.85,3.0,kumasi,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,north central,4,1
+O00882,2025-05-05,2025-05-08,2025-05-16,s001,health,80.71,3.0,kumasi,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,north central,8,1
+O00883,2025-05-21,2025-05-25,2025-05-25,s013,groceries,234.39,4.0,accra,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,volta,0,1
+O00884,2025-05-05,2025-05-06,2025-05-10,s037,home & living,293.04,2.0,lagos,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,volta,4,1
+O00885,2025-05-26,2025-05-30,2025-06-06,s039,health,47.46,3.0,accra,2.0,Fake product and horrible packaging.,-0.75,1,late delivery,pickup,volta,7,1
+O00886,2025-05-10,2025-05-10,2025-05-15,s021,groceries,283.08,1.0,kano,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,north central,5,1
+O00887,2025-06-09,2025-06-11,2025-06-18,s024,home & living,246.24,2.0,lagos,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,volta,7,1
+O00888,2025-04-23,2025-04-27,2025-04-27,s037,health,413.58,3.0,lagos,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,ashanti,0,1
+O00889,2025-06-15,2025-06-19,2025-06-24,s035,health,110.08,4.0,accra,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,express,greater accra,5,1
+O00890,2025-06-17,2025-06-21,2025-06-30,s046,electronics,304.82,3.0,kumasi,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,south west,9,1
+O00891,2025-04-08,2025-04-09,2025-04-10,s032,home & living,89.0,4.0,kano,3.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,north central,1,1
+O00892,2025-05-05,2025-05-09,2025-05-15,s014,electronics,464.77,2.0,accra,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south east,6,1
+O00893,2025-05-06,2025-05-08,2025-05-10,s029,home & living,67.02,3.0,kumasi,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,south west,2,1
+O00894,2025-05-24,2025-05-25,2025-06-01,s010,home & living,279.83,4.0,lagos,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,ashanti,7,1
+O00895,2025-04-21,2025-04-23,2025-04-24,s037,home & living,266.32,3.0,lagos,2.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,north central,1,1
+O00896,2025-05-18,2025-05-22,2025-05-25,s039,electronics,266.32,2.0,kano,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,greater accra,3,1
+O00897,2025-05-05,2025-05-08,2025-05-17,s010,fashion,24.29,4.0,lagos,2.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,greater accra,9,1
+O00898,2025-05-22,2025-05-24,2025-06-01,s011,toys,282.95,2.0,kumasi,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,express,volta,8,1
+O00899,2025-06-20,2025-06-23,2025-06-25,s029,toys,419.88,3.0,kumasi,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south east,2,1
+O00900,2025-05-11,2025-05-13,2025-05-22,s050,electronics,165.13,4.0,accra,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south west,9,1
+O00901,2025-06-02,2025-06-06,2025-06-12,s016,fashion,31.1,1.0,kano,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,south east,6,1
+O00902,2025-05-30,2025-06-03,2025-06-08,s049,electronics,413.99,1.0,kano,5.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,volta,5,1
+O00903,2025-04-27,2025-04-30,2025-05-06,s018,toys,126.2,4.0,kano,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,standard,volta,6,1
+O00904,2025-06-16,2025-06-17,2025-06-25,s023,groceries,222.55,3.0,kumasi,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south east,8,1
+O00905,2025-04-27,2025-04-29,2025-05-01,s016,toys,290.79,4.0,kumasi,5.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,south east,2,1
+O00906,2025-05-09,2025-05-12,2025-05-15,s027,electronics,359.29,4.0,accra,3.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,express,north central,3,1
+O00907,2025-04-17,2025-04-19,2025-04-24,s034,health,113.33,4.0,kumasi,2.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,greater accra,5,1
+O00908,2025-04-13,2025-04-15,2025-04-24,s021,health,313.48,1.0,kano,1.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,volta,9,1
+O00909,2025-06-16,2025-06-17,2025-06-17,s029,health,333.16,1.0,kumasi,3.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,ashanti,0,1
+O00910,2025-05-07,2025-05-09,2025-05-13,s026,groceries,107.07,2.0,accra,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,express,volta,4,1
+O00911,2025-05-10,2025-05-10,2025-05-11,s028,toys,277.76,2.0,lagos,2.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,north central,1,1
+O00912,2025-06-11,2025-06-12,2025-06-20,s007,home & living,381.07,2.0,accra,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,standard,ashanti,8,1
+O00913,2025-05-08,2025-05-08,2025-05-16,s009,health,176.87,3.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,greater accra,8,1
+O00914,2025-06-16,2025-06-17,2025-06-19,s043,fashion,305.2,2.0,accra,3.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,south east,2,1
+O00915,2025-05-05,2025-05-09,2025-05-15,s007,health,416.77,2.0,accra,2.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,volta,6,1
+O00916,2025-04-16,2025-04-16,2025-04-25,s050,electronics,435.52,4.0,lagos,5.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,ashanti,9,1
+O00917,2025-04-30,2025-04-30,2025-05-02,s013,groceries,114.71,4.0,kumasi,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,south east,2,1
+O00918,2025-05-31,2025-05-31,2025-06-09,s005,home & living,24.04,2.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,greater accra,9,1
+O00919,2025-05-10,2025-05-11,2025-05-20,s007,electronics,204.87,3.0,kano,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,ashanti,9,1
+O00920,2025-05-02,2025-05-05,2025-05-05,s049,groceries,357.63,3.0,lagos,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,standard,greater accra,0,1
+O00921,2025-04-26,2025-04-30,2025-05-07,s036,fashion,165.6,4.0,kumasi,5.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,south west,7,1
+O00922,2025-06-05,2025-06-09,2025-06-13,s047,health,56.73,4.0,lagos,1.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,express,volta,4,1
+O00923,2025-06-13,2025-06-16,2025-06-20,s043,fashion,378.71,1.0,accra,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,greater accra,4,1
+O00924,2025-05-28,2025-05-31,2025-06-02,s004,health,247.35,3.0,kano,3.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,volta,2,1
+O00925,2025-04-15,2025-04-17,2025-04-23,s041,Unknown,112.21,1.0,kano,2.0,Item arrived in perfect condition and works well.,1.0,1,late delivery,standard,volta,6,1
+O00926,2025-05-02,2025-05-03,2025-05-08,s029,Unknown,141.41,4.0,accra,2.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,greater accra,5,1
+O00927,2025-05-04,2025-05-08,2025-05-10,s024,Unknown,415.4,2.0,kumasi,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,south east,2,1
+O00928,2025-05-12,2025-05-16,2025-05-19,s035,groceries,266.32,2.0,lagos,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,standard,volta,3,1
+O00929,2025-05-07,2025-05-07,2025-05-13,s020,toys,266.32,4.0,lagos,2.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,greater accra,6,1
+O00930,2025-06-07,2025-06-07,2025-06-10,s041,toys,266.32,3.0,kumasi,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,greater accra,3,1
+O00931,2025-06-20,2025-06-24,2025-06-27,s048,fashion,413.93,2.0,kano,4.0,Packaging could be better but the item works fine.,0.458333333,0,no complaint,pickup,north central,3,1
+O00932,2025-04-19,2025-04-20,2025-04-23,s031,groceries,272.22,2.0,accra,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,north central,3,1
+O00933,2025-05-08,2025-05-08,2025-05-17,s048,fashion,49.8,2.0,lagos,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,south east,9,1
+O00934,2025-06-04,2025-06-06,2025-06-14,s003,home & living,67.47,2.0,kano,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,south east,8,1
+O00935,2025-06-23,2025-06-27,2025-06-28,s021,groceries,322.57,3.0,kano,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,south east,1,1
+O00936,2025-04-21,2025-04-24,2025-05-01,s022,electronics,228.76,2.0,kumasi,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,north central,7,1
+O00937,2025-05-17,2025-05-21,2025-05-28,s010,toys,426.78,2.0,kano,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,south east,7,1
+O00938,2025-05-03,2025-05-04,2025-05-05,s001,toys,282.53,4.0,kumasi,3.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,standard,north central,1,1
+O00939,2025-04-12,2025-04-15,2025-04-15,s008,home & living,240.77,3.0,kano,4.0,"Met my expectations, nothing more.",0.5,0,no complaint,standard,south west,0,1
+O00940,2025-06-11,2025-06-12,2025-06-21,s032,home & living,392.65,3.0,kano,5.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,greater accra,9,1
+O00941,2025-05-17,2025-05-19,2025-05-26,s012,toys,60.39,2.0,kano,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,express,south west,7,1
+O00942,2025-04-10,2025-04-11,2025-04-11,s047,electronics,76.19,3.0,kumasi,5.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,south east,0,1
+O00943,2025-04-13,2025-04-16,2025-04-21,s039,health,385.26,2.0,lagos,3.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,volta,5,1
+O00944,2025-05-16,2025-05-20,2025-05-29,s035,fashion,145.2,1.0,kumasi,4.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,volta,9,1
+O00945,2025-06-23,2025-06-23,2025-06-28,s027,health,124.33,1.0,lagos,3.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,volta,5,1
+O00946,2025-05-16,2025-05-20,2025-05-25,s030,home & living,39.37,4.0,accra,2.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,volta,5,1
+O00947,2025-05-15,2025-05-16,2025-05-25,s038,fashion,65.59,4.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,volta,9,1
+O00948,2025-05-09,2025-05-12,2025-05-21,s018,groceries,211.57,1.0,accra,1.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,1,wrong color,express,volta,9,1
+O00949,2025-04-27,2025-04-30,2025-05-01,s029,toys,136.71,4.0,kumasi,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,ashanti,1,1
+O00950,2025-04-15,2025-04-17,2025-04-18,s022,Unknown,278.59,4.0,kano,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,volta,1,1
+O00951,2025-06-17,2025-06-20,2025-06-24,s028,Unknown,483.0,1.0,kumasi,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,south west,4,1
+O00952,2025-04-09,2025-04-13,2025-04-22,s044,Unknown,286.32,4.0,kumasi,4.0,Arrived late and the item looks used.,-0.3,0,no complaint,standard,south west,9,1
+O00953,2025-05-22,2025-05-23,2025-06-01,s035,home & living,421.51,4.0,kano,3.0,Arrived late and the item looks used.,-0.3,0,no complaint,pickup,volta,9,1
+O00954,2025-05-10,2025-05-14,2025-05-17,s020,fashion,80.21,4.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south east,3,1
+O00955,2025-05-19,2025-05-22,2025-05-29,s020,home & living,394.54,1.0,accra,4.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,south east,7,1
+O00956,2025-05-12,2025-05-15,2025-05-16,s010,home & living,341.42,4.0,lagos,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,volta,1,1
+O00957,2025-05-27,2025-05-29,2025-06-02,s015,health,134.28,1.0,lagos,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,south west,4,1
+O00958,2025-05-20,2025-05-23,2025-05-23,s043,health,320.52,2.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,volta,0,1
+O00959,2025-04-07,2025-04-10,2025-04-10,s032,fashion,282.72,3.0,kano,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,standard,ashanti,0,1
+O00960,2025-06-07,2025-06-11,2025-06-14,s026,toys,460.01,2.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,north central,3,1
+O00961,2025-04-14,2025-04-16,2025-04-16,s018,groceries,151.24,2.0,accra,1.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,pickup,ashanti,0,1
+O00962,2025-04-29,2025-05-03,2025-05-06,s037,toys,281.63,2.0,kumasi,4.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,pickup,north central,3,1
+O00963,2025-06-25,2025-06-25,2025-06-30,s009,electronics,262.09,2.0,accra,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,volta,5,1
+O00964,2025-06-18,2025-06-18,2025-06-25,s001,toys,494.53,3.0,kumasi,1.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,express,south east,7,1
+O00965,2025-04-22,2025-04-24,2025-04-29,s044,fashion,57.36,3.0,lagos,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,pickup,ashanti,5,1
+O00966,2025-04-23,2025-04-25,2025-04-25,s012,fashion,497.83,2.0,accra,3.0,Superb service and product. Will buy again.,1.0,0,no complaint,standard,south west,0,1
+O00967,2025-06-18,2025-06-18,2025-06-19,s039,groceries,243.47,1.0,kano,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,south west,1,1
+O00968,2025-05-03,2025-05-05,2025-05-05,s024,health,344.27,1.0,lagos,4.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,volta,0,1
+O00969,2025-06-13,2025-06-16,2025-06-19,s034,Unknown,72.88,3.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,standard,greater accra,3,1
+O00970,2025-06-19,2025-06-21,2025-06-26,s002,Unknown,379.2,4.0,kumasi,5.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,greater accra,5,1
+O00971,2025-04-25,2025-04-29,2025-05-07,s018,fashion,55.33,3.0,lagos,3.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,south west,8,1
+O00972,2025-06-03,2025-06-07,2025-06-12,s008,health,227.09,1.0,accra,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,pickup,ashanti,5,1
+O00973,2025-04-15,2025-04-16,2025-04-25,s048,electronics,120.76,4.0,lagos,2.0,Excellent quality and affordable price. Highly recommend.,0.58,0,no complaint,pickup,ashanti,9,1
+O00974,2025-05-10,2025-05-10,2025-05-13,s043,groceries,266.32,4.0,kano,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,standard,north central,3,1
+O00975,2025-05-31,2025-06-03,2025-06-09,s045,toys,266.32,3.0,kumasi,3.0,"It's okay, not too bad but not amazing either.",-0.166666667,0,no complaint,standard,volta,6,1
+O00976,2025-04-09,2025-04-11,2025-04-16,s010,home & living,266.32,3.0,lagos,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,express,ashanti,5,1
+O00977,2025-04-27,2025-04-30,2025-05-05,s041,fashion,143.18,2.0,lagos,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,express,south west,5,1
+O00978,2025-06-16,2025-06-18,2025-06-21,s030,fashion,85.42,3.0,accra,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,south east,3,1
+O00979,2025-05-09,2025-05-13,2025-05-16,s041,toys,188.76,3.0,kumas,2.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,greater accra,3,1
+O00980,2025-05-05,2025-05-07,2025-05-11,s021,home & living,282.67,3.0,accra,4.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,express,south west,4,1
+O00981,2025-04-28,2025-04-28,2025-05-06,s010,toy,368.87,4.0,accra,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,south west,8,1
+O00982,2025-04-30,2025-05-03,2025-05-03,s013,living & home,158.48,4.0,kano,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,volta,0,1
+O00983,2025-04-15,2025-04-15,2025-04-21,s045,fashon,160.55,4.0,lagos,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,express,greater accra,6,1
+O00984,2025-05-26,2025-05-26,2025-06-04,s023,electronics,165.81,3.0,accra,5.0,Very disappointed. Not what was shown online.,-0.975,0,no complaint,standard,north central,9,1
+O00985,2025-06-03,2025-06-06,2025-06-08,s020,health,238.7,1.0,kano,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,express,volta,2,1
+O00986,2025-04-08,2025-04-11,2025-04-18,s019,electronics,498.9,4.0,kano,5.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,standard,south east,7,1
+O00987,2025-04-21,2025-04-25,2025-04-30,s027,health,10.09,3.0,accra,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,ashanti,5,1
+O00988,2025-05-01,2025-05-01,2025-05-10,s016,fashion,40.11,3.0,kumasi,4.0,Low quality. Would not recommend at all.,0.0,0,no complaint,pickup,ashanti,9,1
+O00989,2025-05-27,2025-05-27,2025-06-05,s010,health,76.32,1.0,accra,4.0,Superb service and product. Will buy again.,1.0,0,no complaint,pickup,ashanti,9,1
+O00990,2025-04-18,2025-04-19,2025-04-24,s015,health,304.89,1.0,lagos,5.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,volta,5,1
+O00991,2025-04-18,2025-04-22,2025-04-23,s049,health,155.71,4.0,accra,1.0,"Delivery was average, product as expected.",-0.125,0,no complaint,pickup,south east,1,1
+O00992,2025-04-07,2025-04-07,2025-04-13,s021,health,352.12,4.0,accra,4.0,Terrible experience. Product was broken.,-0.7,0,no complaint,pickup,volta,6,1
+O00993,2025-05-19,2025-05-23,2025-05-30,s033,electronics,266.32,3.0,lagos,5.0,"Met my expectations, nothing more.",0.5,0,no complaint,express,greater accra,7,1
+O00994,2025-04-18,2025-04-20,2025-04-28,s041,toys,266.32,3.0,kumasi,3.0,Item arrived in perfect condition and works well.,1.0,0,no complaint,express,greater accra,8,1
+O00995,2025-06-12,2025-06-14,2025-06-17,s030,groceries,266.32,4.0,accra,4.0,Fake product and horrible packaging.,-0.75,0,no complaint,pickup,volta,3,1
+O00996,2025-05-01,2025-05-02,2025-05-08,s007,health,266.6,2.0,kumasi,4.0,"Fast delivery, item exactly as described. Very satisfied!",0.420833333,0,no complaint,pickup,north central,6,1
+O00997,2025-06-25,2025-06-27,2025-06-28,s015,toys,108.38,2.0,accra,4.0,"Delivery was average, product as expected.",-0.125,0,no complaint,standard,volta,1,1
+O00998,2025-06-18,2025-06-19,2025-06-23,s028,home & living,416.04,2.0,accra,2.0,"Just received it, will see how it performs over time.",0.0,0,no complaint,pickup,greater accra,4,1
+O00999,2025-04-26,2025-04-27,2025-05-02,s037,electronics,168.32,2.0,kumasi,4.0,"Absolutely love this product, great value for money.",0.65,0,no complaint,pickup,south east,5,1
