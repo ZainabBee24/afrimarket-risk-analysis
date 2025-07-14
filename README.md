@@ -56,6 +56,12 @@ This repository contains the full analysis and solution for the **Dataverse Afri
 
 
 ## 📎 Submission Notes
+## 🚨 Note on Streamlit Hosting
+Due to environment limitations and time constraints, the Streamlit app could not be deployed before the challenge deadline. However, the `app.py` file is included in this repository and can be run locally using:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 
 All required assets are organized and screenshots attached per instructions.  
 Thank you Dataverse Africa team for this impactful challenge!
